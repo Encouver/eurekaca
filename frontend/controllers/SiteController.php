@@ -3,10 +3,11 @@ namespace frontend\controllers;
 
 use Yii;
 use common\models\LoginForm;
-use frontend\models\PasswordResetRequestForm;
-use frontend\models\ResetPasswordForm;
-use frontend\models\SignupForm;
-use frontend\models\ContactForm;
+use app\models\PasswordResetRequestForm;
+use app\models\ResetPasswordForm;
+use app\models\SignupForm;
+use app\models\ContactForm;
+use app\models\Contactos;
 use yii\base\InvalidParamException;
 use yii\web\BadRequestHttpException;
 use yii\web\Controller;
@@ -110,6 +111,28 @@ class SiteController extends Controller
             ]);
         }
     }
+     public function actionNuevocontacto()
+    {
+        $model = new Contactos();
+        if ($model->load(Yii::$app->request->post()) && $model->validate()) {
+             
+           if ($model->sendEmail(Yii::$app->params['adminEmail'])) {
+                    $model->save();
+                Yii::$app->session->setFlash('success', 'Thank you for contacting us. We will respond to you as soon as possible.');
+            } else {
+                Yii::$app->session->setFlash('error', 'There was an error sending email.');
+            }
+          
+
+
+            return $this->refresh();
+        } else {
+            return $this->render('nuevocontacto', [
+                'model' => $model,
+            ]);
+        }
+    }
+
 
     public function actionAbout()
     {
