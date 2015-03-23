@@ -37,6 +37,42 @@ SET default_tablespace = '';
 SET default_with_oids = false;
 
 --
+-- Name: contactos; Type: TABLE; Schema: public; Owner: eureka; Tablespace: 
+--
+
+CREATE TABLE contactos (
+    id integer NOT NULL,
+    nombre character varying(50) NOT NULL,
+    telefono character varying(20) NOT NULL,
+    correo character varying(30) NOT NULL,
+    descripcion text NOT NULL
+);
+
+
+ALTER TABLE public.contactos OWNER TO eureka;
+
+--
+-- Name: contactos_id_seq; Type: SEQUENCE; Schema: public; Owner: eureka
+--
+
+CREATE SEQUENCE contactos_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+ALTER TABLE public.contactos_id_seq OWNER TO eureka;
+
+--
+-- Name: contactos_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: eureka
+--
+
+ALTER SEQUENCE contactos_id_seq OWNED BY contactos.id;
+
+
+--
 -- Name: migration; Type: TABLE; Schema: public; Owner: eureka; Tablespace: 
 --
 
@@ -155,6 +191,13 @@ ALTER SEQUENCE user_id_seq OWNED BY "user".id;
 -- Name: id; Type: DEFAULT; Schema: public; Owner: eureka
 --
 
+ALTER TABLE ONLY contactos ALTER COLUMN id SET DEFAULT nextval('contactos_id_seq'::regclass);
+
+
+--
+-- Name: id; Type: DEFAULT; Schema: public; Owner: eureka
+--
+
 ALTER TABLE ONLY subscripciones ALTER COLUMN id SET DEFAULT nextval('subscripciones_id_seq'::regclass);
 
 
@@ -163,6 +206,26 @@ ALTER TABLE ONLY subscripciones ALTER COLUMN id SET DEFAULT nextval('subscripcio
 --
 
 ALTER TABLE ONLY "user" ALTER COLUMN id SET DEFAULT nextval('user_id_seq'::regclass);
+
+
+--
+-- Data for Name: contactos; Type: TABLE DATA; Schema: public; Owner: eureka
+--
+
+COPY contactos (id, nombre, telefono, correo, descripcion) FROM stdin;
+1	raul	04162153309	raul0115@gmail.com	Necesito ayuda urgente
+2	ggggggggg	ggggggg	raul0115@hotmail.com	ddddddd
+3	rtdstststs	dfsfsfs	raul@jfjf.com	ddddddddddddd
+4	rrrrr	rrrrrrrrr	raul@fomof.com	odmododm
+5	ssss	raul@hotmail.com	raul@hotmail.com	ssss
+\.
+
+
+--
+-- Name: contactos_id_seq; Type: SEQUENCE SET; Schema: public; Owner: eureka
+--
+
+SELECT pg_catalog.setval('contactos_id_seq', 5, true);
 
 
 --
@@ -203,6 +266,14 @@ COPY "user" (id, username, auth_key, password_hash, password_reset_token, email,
 --
 
 SELECT pg_catalog.setval('user_id_seq', 1, false);
+
+
+--
+-- Name: contactos_pkey; Type: CONSTRAINT; Schema: public; Owner: eureka; Tablespace: 
+--
+
+ALTER TABLE ONLY contactos
+    ADD CONSTRAINT contactos_pkey PRIMARY KEY (id);
 
 
 --
