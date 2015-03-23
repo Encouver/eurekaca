@@ -2961,3 +2961,2889 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1424023320.283
     'REQUEST_TIME' => 1424023320
 ]
+2015-03-19 19:43:06 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'frontend\controllers\ContactosController' in file: C:\Apache24\htdocs\eurekaca/frontend/controllers/ContactosController.php. Namespace missing?' in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('frontend\\contro...')
+#1 [internal function]: spl_autoload_call('frontend\\contro...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Module.php(563): class_exists('frontend\\contro...')
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Module.php(521): yii\base\Module->createControllerByID('contactos')
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('contactos')
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('contactos', Array)
+#6 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\Apache24\htdocs\eurekaca\frontend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2015-03-19 19:43:06 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'contactos'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1793657689.1426807599'
+    'PHPSESSID' => 'l3rgu7h906et282ckjqjb8pf76'
+    '_csrf' => '5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds:32:\"T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.1.1793657689.1426807599; PHPSESSID=l3rgu7h906et282ckjqjb8pf76; _csrf=5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds%3A32%3A%22T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY%22%3B'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\:C:\\php\\;C:\\Program Files (x86)\\OpenSSH\\bin;C:\\Program Files (x86)\\MySQL\\MySQL Utilities 1.3.6\\;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '55173'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=contactos'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=contactos'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1426810386.271
+    'REQUEST_TIME' => 1426810386
+]
+2015-03-19 19:44:02 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'frontend\controllers\ContactosController' in file: C:\Apache24\htdocs\eurekaca/frontend/controllers/ContactosController.php. Namespace missing?' in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('frontend\\contro...')
+#1 [internal function]: spl_autoload_call('frontend\\contro...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Module.php(563): class_exists('frontend\\contro...')
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Module.php(521): yii\base\Module->createControllerByID('contactos')
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('contactos/index')
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('contactos/index', Array)
+#6 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\Apache24\htdocs\eurekaca\frontend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2015-03-19 19:44:02 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'contactos/index'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1793657689.1426807599'
+    'PHPSESSID' => 'l3rgu7h906et282ckjqjb8pf76'
+    '_csrf' => '5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds:32:\"T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.1.1793657689.1426807599; PHPSESSID=l3rgu7h906et282ckjqjb8pf76; _csrf=5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds%3A32%3A%22T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY%22%3B'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\:C:\\php\\;C:\\Program Files (x86)\\OpenSSH\\bin;C:\\Program Files (x86)\\MySQL\\MySQL Utilities 1.3.6\\;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '55186'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=contactos/index'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=contactos/index'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1426810442.934
+    'REQUEST_TIME' => 1426810442
+]
+2015-03-19 19:48:21 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'frontend\controllers\ContactosController' in file: C:\Apache24\htdocs\eurekaca/frontend/controllers/ContactosController.php. Namespace missing?' in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('frontend\\contro...')
+#1 [internal function]: spl_autoload_call('frontend\\contro...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Module.php(563): class_exists('frontend\\contro...')
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Module.php(521): yii\base\Module->createControllerByID('contactos')
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('contactos')
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('contactos', Array)
+#6 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\Apache24\htdocs\eurekaca\frontend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2015-03-19 19:48:21 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'contactos'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1793657689.1426807599'
+    'PHPSESSID' => 'l3rgu7h906et282ckjqjb8pf76'
+    '_csrf' => '5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds:32:\"T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.1.1793657689.1426807599; PHPSESSID=l3rgu7h906et282ckjqjb8pf76; _csrf=5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds%3A32%3A%22T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY%22%3B'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\:C:\\php\\;C:\\Program Files (x86)\\OpenSSH\\bin;C:\\Program Files (x86)\\MySQL\\MySQL Utilities 1.3.6\\;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '55267'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=contactos'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=contactos'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1426810701.318
+    'REQUEST_TIME' => 1426810701
+]
+2015-03-19 19:49:37 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'frontend\controllers\ContactosController' in file: C:\Apache24\htdocs\eurekaca/frontend/controllers/ContactosController.php. Namespace missing?' in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('frontend\\contro...')
+#1 [internal function]: spl_autoload_call('frontend\\contro...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Module.php(563): class_exists('frontend\\contro...')
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Module.php(521): yii\base\Module->createControllerByID('contactos')
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('contactos')
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('contactos', Array)
+#6 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\Apache24\htdocs\eurekaca\frontend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2015-03-19 19:49:37 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'contactos'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'l3rgu7h906et282ckjqjb8pf76'
+    '_csrf' => '5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds:32:\"T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY\";'
+    '_ga' => 'GA1.1.1793657689.1426807599'
+    '_gat' => '1'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=l3rgu7h906et282ckjqjb8pf76; _csrf=5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds%3A32%3A%22T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY%22%3B; _ga=GA1.1.1793657689.1426807599; _gat=1'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\:C:\\php\\;C:\\Program Files (x86)\\OpenSSH\\bin;C:\\Program Files (x86)\\MySQL\\MySQL Utilities 1.3.6\\;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '55307'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=contactos'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=contactos'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1426810777.025
+    'REQUEST_TIME' => 1426810777
+]
+2015-03-19 19:53:55 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42501]: Insufficient privilege: 7 ERROR:  permiso denegado a la relación contactos' in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\db\Command.php:821
+Stack trace:
+#0 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\db\Command.php(821): PDOStatement->execute()
+#1 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('fetchColumn', 0)
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\db\Query.php(373): yii\db\Command->queryScalar()
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\db\Query.php(280): yii\db\Query->queryScalar('COUNT(*)', NULL)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\data\ActiveDataProvider.php(165): yii\db\Query->count('*', NULL)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\data\BaseDataProvider.php(147): yii\data\ActiveDataProvider->prepareTotalCount()
+#6 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\data\ActiveDataProvider.php(105): yii\data\BaseDataProvider->getTotalCount()
+#7 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\data\BaseDataProvider.php(79): yii\data\ActiveDataProvider->prepareModels()
+#8 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\data\BaseDataProvider.php(92): yii\data\BaseDataProvider->prepare()
+#9 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\data\BaseDataProvider.php(133): yii\data\BaseDataProvider->getModels()
+#10 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\widgets\BaseListView.php(124): yii\data\BaseDataProvider->getCount()
+#11 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\grid\GridView.php(239): yii\widgets\BaseListView->run()
+#12 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Widget.php(96): yii\grid\GridView->run()
+#13 C:\Apache24\htdocs\eurekaca\frontend\views\contactos\index.php(36): yii\base\Widget::widget(Array)
+#14 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\View.php(325): require('C:\\Apache24\\htd...')
+#15 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\Apache24\\htd...', Array)
+#16 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\Apache24\\htd...', Array, Object(frontend\controllers\ContactosController))
+#17 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('index', Array, Object(frontend\controllers\ContactosController))
+#18 C:\Apache24\htdocs\eurekaca\frontend\controllers\ContactosController.php(41): yii\base\Controller->render('index', Array)
+#19 [internal function]: frontend\controllers\ContactosController->actionIndex()
+#20 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#21 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#22 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#23 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('contactos', Array)
+#24 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 C:\Apache24\htdocs\eurekaca\frontend\web\index.php(18): yii\base\Application->run()
+#26 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42501]: Insufficient privilege: 7 ERROR:  permiso denegado a la relación contactos
+The SQL being executed was: SELECT COUNT(*) FROM "contactos"' in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\db\Schema.php:532
+Stack trace:
+#0 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\db\Command.php(836): yii\db\Schema->convertException(Object(PDOException), 'SELECT COUNT(*)...')
+#1 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('fetchColumn', 0)
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\db\Query.php(373): yii\db\Command->queryScalar()
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\db\Query.php(280): yii\db\Query->queryScalar('COUNT(*)', NULL)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\data\ActiveDataProvider.php(165): yii\db\Query->count('*', NULL)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\data\BaseDataProvider.php(147): yii\data\ActiveDataProvider->prepareTotalCount()
+#6 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\data\ActiveDataProvider.php(105): yii\data\BaseDataProvider->getTotalCount()
+#7 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\data\BaseDataProvider.php(79): yii\data\ActiveDataProvider->prepareModels()
+#8 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\data\BaseDataProvider.php(92): yii\data\BaseDataProvider->prepare()
+#9 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\data\BaseDataProvider.php(133): yii\data\BaseDataProvider->getModels()
+#10 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\widgets\BaseListView.php(124): yii\data\BaseDataProvider->getCount()
+#11 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\grid\GridView.php(239): yii\widgets\BaseListView->run()
+#12 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Widget.php(96): yii\grid\GridView->run()
+#13 C:\Apache24\htdocs\eurekaca\frontend\views\contactos\index.php(36): yii\base\Widget::widget(Array)
+#14 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\View.php(325): require('C:\\Apache24\\htd...')
+#15 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\Apache24\\htd...', Array)
+#16 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\Apache24\\htd...', Array, Object(frontend\controllers\ContactosController))
+#17 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('index', Array, Object(frontend\controllers\ContactosController))
+#18 C:\Apache24\htdocs\eurekaca\frontend\controllers\ContactosController.php(41): yii\base\Controller->render('index', Array)
+#19 [internal function]: frontend\controllers\ContactosController->actionIndex()
+#20 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#21 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#22 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#23 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('contactos', Array)
+#24 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 C:\Apache24\htdocs\eurekaca\frontend\web\index.php(18): yii\base\Application->run()
+#26 {main}
+Additional Information:
+Array
+(
+    [0] => 42501
+    [1] => 7
+    [2] => ERROR:  permiso denegado a la relación contactos
+)
+
+2015-03-19 19:53:54 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'contactos'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'l3rgu7h906et282ckjqjb8pf76'
+    '_csrf' => '5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds:32:\"T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY\";'
+    '_ga' => 'GA1.1.1793657689.1426807599'
+    '_gat' => '1'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=l3rgu7h906et282ckjqjb8pf76; _csrf=5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds%3A32%3A%22T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY%22%3B; _ga=GA1.1.1793657689.1426807599; _gat=1'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\:C:\\php\\;C:\\Program Files (x86)\\OpenSSH\\bin;C:\\Program Files (x86)\\MySQL\\MySQL Utilities 1.3.6\\;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '55418'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=contactos'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=contactos'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1426811034.565
+    'REQUEST_TIME' => 1426811034
+]
+2015-03-19 20:13:35 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site%2nuevocontactos".' in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site%2nuevocont...', Array)
+#1 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Apache24\htdocs\eurekaca\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Apache24\htdocs\eurekaca\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-03-19 20:13:35 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site%2nuevocontactos'
+]
+
+$_COOKIE = [
+    '_csrf' => '5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds:32:\"T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY\";'
+    '_gat' => '1'
+    '_ga' => 'GA1.1.1793657689.1426807599'
+    'PHPSESSID' => 'l3rgu7h906et282ckjqjb8pf76'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'yubuwu'
+    '__captcha/site/captchacount' => 1
+    '__returnUrl' => '/cedani/backend/web/'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds%3A32%3A%22T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY%22%3B; _gat=1; _ga=GA1.1.1793657689.1426807599; PHPSESSID=l3rgu7h906et282ckjqjb8pf76'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\:C:\\php\\;C:\\Program Files (x86)\\OpenSSH\\bin;C:\\Program Files (x86)\\MySQL\\MySQL Utilities 1.3.6\\;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '55723'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2nuevocontactos'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2nuevocontactos'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1426812215.085
+    'REQUEST_TIME' => 1426812215
+]
+2015-03-19 20:18:34 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\Contactos' not found' in C:\Apache24\htdocs\eurekaca\frontend\controllers\SiteController.php:115
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-03-19 20:18:34 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/nuevocontacto'
+]
+
+$_COOKIE = [
+    '_csrf' => '5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds:32:\"T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY\";'
+    '_gat' => '1'
+    'PHPSESSID' => 'l3rgu7h906et282ckjqjb8pf76'
+    '_ga' => 'GA1.1.1793657689.1426807599'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?r=site'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds%3A32%3A%22T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY%22%3B; _gat=1; PHPSESSID=l3rgu7h906et282ckjqjb8pf76; _ga=GA1.1.1793657689.1426807599'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\:C:\\php\\;C:\\Program Files (x86)\\OpenSSH\\bin;C:\\Program Files (x86)\\MySQL\\MySQL Utilities 1.3.6\\;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '55764'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fnuevocontacto'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fnuevocontacto'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1426812514.919
+    'REQUEST_TIME' => 1426812514
+]
+2015-03-19 20:19:46 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\Contactos' not found' in C:\Apache24\htdocs\eurekaca\frontend\controllers\SiteController.php:115
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-03-19 20:19:46 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/nuevocontacto'
+]
+
+$_COOKIE = [
+    '_csrf' => '5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds:32:\"T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY\";'
+    '_gat' => '1'
+    'PHPSESSID' => 'l3rgu7h906et282ckjqjb8pf76'
+    '_ga' => 'GA1.1.1793657689.1426807599'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds%3A32%3A%22T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY%22%3B; _gat=1; PHPSESSID=l3rgu7h906et282ckjqjb8pf76; _ga=GA1.1.1793657689.1426807599'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\:C:\\php\\;C:\\Program Files (x86)\\OpenSSH\\bin;C:\\Program Files (x86)\\MySQL\\MySQL Utilities 1.3.6\\;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '55779'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fnuevocontacto'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fnuevocontacto'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1426812586.794
+    'REQUEST_TIME' => 1426812586
+]
+2015-03-19 20:20:25 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'frontend\models\Contactos' in file: C:\Apache24\htdocs\eurekaca/frontend/models/Contactos.php. Namespace missing?' in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('frontend\\models...')
+#1 C:\Apache24\htdocs\eurekaca\frontend\controllers\SiteController.php(116): spl_autoload_call('frontend\\models...')
+#2 [internal function]: frontend\controllers\SiteController->actionNuevocontacto()
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('nuevocontacto', Array)
+#6 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/nuevoconta...', Array)
+#7 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\Apache24\htdocs\eurekaca\frontend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+2015-03-19 20:20:25 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/nuevocontacto'
+]
+
+$_COOKIE = [
+    '_csrf' => '5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds:32:\"T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY\";'
+    '_gat' => '1'
+    'PHPSESSID' => 'l3rgu7h906et282ckjqjb8pf76'
+    '_ga' => 'GA1.1.1793657689.1426807599'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds%3A32%3A%22T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY%22%3B; _gat=1; PHPSESSID=l3rgu7h906et282ckjqjb8pf76; _ga=GA1.1.1793657689.1426807599'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\:C:\\php\\;C:\\Program Files (x86)\\OpenSSH\\bin;C:\\Program Files (x86)\\MySQL\\MySQL Utilities 1.3.6\\;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '55787'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fnuevocontacto'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fnuevocontacto'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1426812625.472
+    'REQUEST_TIME' => 1426812625
+]
+2015-03-19 20:21:04 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'frontend\models\Contactos' in file: C:\Apache24\htdocs\eurekaca/frontend/models/Contactos.php. Namespace missing?' in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('frontend\\models...')
+#1 C:\Apache24\htdocs\eurekaca\frontend\controllers\SiteController.php(116): spl_autoload_call('frontend\\models...')
+#2 [internal function]: frontend\controllers\SiteController->actionNuevocontacto()
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('nuevocontacto', Array)
+#6 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/nuevoconta...', Array)
+#7 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\Apache24\htdocs\eurekaca\frontend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+2015-03-19 20:21:04 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/nuevocontacto'
+]
+
+$_COOKIE = [
+    '_csrf' => '5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds:32:\"T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY\";'
+    '_gat' => '1'
+    'PHPSESSID' => 'l3rgu7h906et282ckjqjb8pf76'
+    '_ga' => 'GA1.1.1793657689.1426807599'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds%3A32%3A%22T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY%22%3B; _gat=1; PHPSESSID=l3rgu7h906et282ckjqjb8pf76; _ga=GA1.1.1793657689.1426807599'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\:C:\\php\\;C:\\Program Files (x86)\\OpenSSH\\bin;C:\\Program Files (x86)\\MySQL\\MySQL Utilities 1.3.6\\;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '55797'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fnuevocontacto'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fnuevocontacto'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1426812664.939
+    'REQUEST_TIME' => 1426812664
+]
+2015-03-19 20:21:31 [127.0.0.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: frontend\models\Contactos::verifyCode' in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\db\BaseActiveRecord.php(247): yii\base\Component->__get('verifyCode')
+#1 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\helpers\BaseHtml.php(1838): yii\db\BaseActiveRecord->__get('verifyCode')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\helpers\BaseHtml.php(1139): yii\helpers\BaseHtml::getAttributeValue(Object(frontend\models\Contactos), 'verifyCode')
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\helpers\BaseHtml.php(1160): yii\helpers\BaseHtml::activeInput('text', Object(frontend\models\Contactos), 'verifyCode', Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\captcha\Captcha.php(82): yii\helpers\BaseHtml::activeTextInput(Object(frontend\models\Contactos), 'verifyCode', Array)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Widget.php(96): yii\captcha\Captcha->run()
+#6 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\widgets\ActiveField.php(717): yii\base\Widget::widget(Array)
+#7 C:\Apache24\htdocs\eurekaca\frontend\views\site\nuevocontacto.php(30): yii\widgets\ActiveField->widget('yii\\captcha\\Cap...', Array)
+#8 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\View.php(325): require('C:\\Apache24\\htd...')
+#9 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\Apache24\\htd...', Array)
+#10 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\Apache24\\htd...', Array, Object(frontend\controllers\SiteController))
+#11 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('nuevocontacto', Array, Object(frontend\controllers\SiteController))
+#12 C:\Apache24\htdocs\eurekaca\frontend\controllers\SiteController.php(124): yii\base\Controller->render('nuevocontacto', Array)
+#13 [internal function]: frontend\controllers\SiteController->actionNuevocontacto()
+#14 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#15 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#16 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('nuevocontacto', Array)
+#17 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/nuevoconta...', Array)
+#18 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 C:\Apache24\htdocs\eurekaca\frontend\web\index.php(18): yii\base\Application->run()
+#20 {main}
+2015-03-19 20:21:30 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/nuevocontacto'
+]
+
+$_COOKIE = [
+    '_csrf' => '5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds:32:\"T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY\";'
+    '_gat' => '1'
+    'PHPSESSID' => 'l3rgu7h906et282ckjqjb8pf76'
+    '_ga' => 'GA1.1.1793657689.1426807599'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds%3A32%3A%22T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY%22%3B; _gat=1; PHPSESSID=l3rgu7h906et282ckjqjb8pf76; _ga=GA1.1.1793657689.1426807599'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\:C:\\php\\;C:\\Program Files (x86)\\OpenSSH\\bin;C:\\Program Files (x86)\\MySQL\\MySQL Utilities 1.3.6\\;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '55805'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fnuevocontacto'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fnuevocontacto'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1426812690.627
+    'REQUEST_TIME' => 1426812690
+]
+2015-03-19 20:32:36 [127.0.0.1][-][-][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Missing required parameters: id' in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\web\Controller.php:93
+Stack trace:
+#0 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\InlineAction.php(49): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('view', Array)
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('contactos/view', Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 C:\Apache24\htdocs\eurekaca\frontend\web\index.php(18): yii\base\Application->run()
+#6 {main}
+2015-03-19 20:32:36 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'contactos/view'
+]
+
+$_COOKIE = [
+    '_csrf' => '5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds:32:\"T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY\";'
+    '_gat' => '1'
+    '_ga' => 'GA1.1.1793657689.1426807599'
+    'PHPSESSID' => 'l3rgu7h906et282ckjqjb8pf76'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'atccze'
+    '__captcha/site/captchacount' => 2
+    '__returnUrl' => '/cedani/backend/web/'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?r=site%2Fnuevocontacto'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds%3A32%3A%22T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY%22%3B; _gat=1; _ga=GA1.1.1793657689.1426807599; PHPSESSID=l3rgu7h906et282ckjqjb8pf76'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\:C:\\php\\;C:\\Program Files (x86)\\OpenSSH\\bin;C:\\Program Files (x86)\\MySQL\\MySQL Utilities 1.3.6\\;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '55935'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=contactos%2Fview'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=contactos%2Fview'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1426813356.469
+    'REQUEST_TIME' => 1426813356
+]
+2015-03-19 20:33:10 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'app\models\Contactos' in file: C:\Apache24\htdocs\eurekaca\frontend/models/Contactos.php. Namespace missing?' in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\models\\Cont...')
+#1 C:\Apache24\htdocs\eurekaca\frontend\models\ContactosSearch.php(14): spl_autoload_call('app\\models\\Cont...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\BaseYii.php(288): include('C:\\Apache24\\htd...')
+#3 [internal function]: yii\BaseYii::autoload('app\\models\\Cont...')
+#4 C:\Apache24\htdocs\eurekaca\frontend\controllers\ContactosController.php(35): spl_autoload_call('app\\models\\Cont...')
+#5 [internal function]: frontend\controllers\ContactosController->actionIndex()
+#6 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#7 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#8 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#9 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('contactos', Array)
+#10 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Apache24\htdocs\eurekaca\frontend\web\index.php(18): yii\base\Application->run()
+#12 {main}
+2015-03-19 20:33:10 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'contactos'
+]
+
+$_COOKIE = [
+    '_csrf' => '5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds:32:\"T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY\";'
+    '_gat' => '1'
+    'PHPSESSID' => 'l3rgu7h906et282ckjqjb8pf76'
+    '_ga' => 'GA1.1.1793657689.1426807599'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds%3A32%3A%22T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY%22%3B; _gat=1; PHPSESSID=l3rgu7h906et282ckjqjb8pf76; _ga=GA1.1.1793657689.1426807599'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\:C:\\php\\;C:\\Program Files (x86)\\OpenSSH\\bin;C:\\Program Files (x86)\\MySQL\\MySQL Utilities 1.3.6\\;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '55953'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=contactos'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=contactos'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1426813390.329
+    'REQUEST_TIME' => 1426813390
+]
+2015-03-19 20:33:49 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'app\models\Contactos' in file: C:\Apache24\htdocs\eurekaca\frontend/models/Contactos.php. Namespace missing?' in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\models\\Cont...')
+#1 C:\Apache24\htdocs\eurekaca\frontend\models\ContactosSearch.php(14): spl_autoload_call('app\\models\\Cont...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\BaseYii.php(288): include('C:\\Apache24\\htd...')
+#3 [internal function]: yii\BaseYii::autoload('app\\models\\Cont...')
+#4 C:\Apache24\htdocs\eurekaca\frontend\controllers\ContactosController.php(35): spl_autoload_call('app\\models\\Cont...')
+#5 [internal function]: frontend\controllers\ContactosController->actionIndex()
+#6 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#7 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#8 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#9 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('contactos', Array)
+#10 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Apache24\htdocs\eurekaca\frontend\web\index.php(18): yii\base\Application->run()
+#12 {main}
+2015-03-19 20:33:49 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'contactos'
+]
+
+$_COOKIE = [
+    '_csrf' => '5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds:32:\"T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY\";'
+    '_gat' => '1'
+    'PHPSESSID' => 'l3rgu7h906et282ckjqjb8pf76'
+    '_ga' => 'GA1.1.1793657689.1426807599'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds%3A32%3A%22T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY%22%3B; _gat=1; PHPSESSID=l3rgu7h906et282ckjqjb8pf76; _ga=GA1.1.1793657689.1426807599'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\:C:\\php\\;C:\\Program Files (x86)\\OpenSSH\\bin;C:\\Program Files (x86)\\MySQL\\MySQL Utilities 1.3.6\\;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '55961'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=contactos'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=contactos'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1426813429.85
+    'REQUEST_TIME' => 1426813429
+]
+2015-03-19 20:34:01 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'app\models\Contactos' in file: C:\Apache24\htdocs\eurekaca\frontend/models/Contactos.php. Namespace missing?' in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\models\\Cont...')
+#1 C:\Apache24\htdocs\eurekaca\frontend\models\ContactosSearch.php(14): spl_autoload_call('app\\models\\Cont...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\BaseYii.php(288): include('C:\\Apache24\\htd...')
+#3 [internal function]: yii\BaseYii::autoload('app\\models\\Cont...')
+#4 C:\Apache24\htdocs\eurekaca\frontend\controllers\ContactosController.php(35): spl_autoload_call('app\\models\\Cont...')
+#5 [internal function]: frontend\controllers\ContactosController->actionIndex()
+#6 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#7 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#8 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#9 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('contactos', Array)
+#10 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Apache24\htdocs\eurekaca\frontend\web\index.php(18): yii\base\Application->run()
+#12 {main}
+2015-03-19 20:34:01 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'contactos'
+]
+
+$_COOKIE = [
+    '_csrf' => '5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds:32:\"T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY\";'
+    '_gat' => '1'
+    'PHPSESSID' => 'l3rgu7h906et282ckjqjb8pf76'
+    '_ga' => 'GA1.1.1793657689.1426807599'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds%3A32%3A%22T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY%22%3B; _gat=1; PHPSESSID=l3rgu7h906et282ckjqjb8pf76; _ga=GA1.1.1793657689.1426807599'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\:C:\\php\\;C:\\Program Files (x86)\\OpenSSH\\bin;C:\\Program Files (x86)\\MySQL\\MySQL Utilities 1.3.6\\;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '55964'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=contactos'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=contactos'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1426813441.874
+    'REQUEST_TIME' => 1426813441
+]
+2015-03-19 20:35:09 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'app\models\Contactos' in file: C:\Apache24\htdocs\eurekaca\frontend/models/Contactos.php. Namespace missing?' in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\models\\Cont...')
+#1 C:\Apache24\htdocs\eurekaca\frontend\models\ContactosSearch.php(14): spl_autoload_call('app\\models\\Cont...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\BaseYii.php(288): include('C:\\Apache24\\htd...')
+#3 [internal function]: yii\BaseYii::autoload('app\\models\\Cont...')
+#4 C:\Apache24\htdocs\eurekaca\frontend\controllers\ContactosController.php(35): spl_autoload_call('app\\models\\Cont...')
+#5 [internal function]: frontend\controllers\ContactosController->actionIndex()
+#6 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#7 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#8 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#9 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('contactos/index', Array)
+#10 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Apache24\htdocs\eurekaca\frontend\web\index.php(18): yii\base\Application->run()
+#12 {main}
+2015-03-19 20:35:09 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'contactos/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds:32:\"T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY\";'
+    'PHPSESSID' => 'l3rgu7h906et282ckjqjb8pf76'
+    '_ga' => 'GA1.1.1793657689.1426807599'
+    '_gat' => '1'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds%3A32%3A%22T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY%22%3B; PHPSESSID=l3rgu7h906et282ckjqjb8pf76; _ga=GA1.1.1793657689.1426807599; _gat=1'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\:C:\\php\\;C:\\Program Files (x86)\\OpenSSH\\bin;C:\\Program Files (x86)\\MySQL\\MySQL Utilities 1.3.6\\;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '55991'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=contactos/index'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=contactos/index'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1426813509.66
+    'REQUEST_TIME' => 1426813509
+]
+2015-03-19 20:36:39 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'frontend\models\Contactos' in file: C:\Apache24\htdocs\eurekaca/frontend/models/Contactos.php. Namespace missing?' in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('frontend\\models...')
+#1 C:\Apache24\htdocs\eurekaca\frontend\controllers\SiteController.php(116): spl_autoload_call('frontend\\models...')
+#2 [internal function]: frontend\controllers\SiteController->actionNuevocontacto()
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('nuevocontacto', Array)
+#6 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/nuevoconta...', Array)
+#7 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\Apache24\htdocs\eurekaca\frontend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+2015-03-19 20:36:39 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/nuevocontacto'
+]
+
+$_COOKIE = [
+    '_csrf' => '5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds:32:\"T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY\";'
+    'PHPSESSID' => 'l3rgu7h906et282ckjqjb8pf76'
+    '_gat' => '1'
+    '_ga' => 'GA1.1.1793657689.1426807599'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?r=contactos/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds%3A32%3A%22T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY%22%3B; PHPSESSID=l3rgu7h906et282ckjqjb8pf76; _gat=1; _ga=GA1.1.1793657689.1426807599'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\:C:\\php\\;C:\\Program Files (x86)\\OpenSSH\\bin;C:\\Program Files (x86)\\MySQL\\MySQL Utilities 1.3.6\\;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '56025'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fnuevocontacto'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fnuevocontacto'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1426813599.352
+    'REQUEST_TIME' => 1426813599
+]
+2015-03-19 20:37:49 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'app\models\Contactos' in file: C:\Apache24\htdocs\eurekaca\frontend/models/Contactos.php. Namespace missing?' in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\models\\Cont...')
+#1 C:\Apache24\htdocs\eurekaca\frontend\models\ContactosSearch.php(14): spl_autoload_call('app\\models\\Cont...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\BaseYii.php(288): include('C:\\Apache24\\htd...')
+#3 [internal function]: yii\BaseYii::autoload('app\\models\\Cont...')
+#4 C:\Apache24\htdocs\eurekaca\frontend\controllers\ContactosController.php(35): spl_autoload_call('app\\models\\Cont...')
+#5 [internal function]: frontend\controllers\ContactosController->actionIndex()
+#6 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#7 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#8 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#9 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('contactos/index', Array)
+#10 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Apache24\htdocs\eurekaca\frontend\web\index.php(18): yii\base\Application->run()
+#12 {main}
+2015-03-19 20:37:49 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'contactos/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds:32:\"T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY\";'
+    '_gat' => '1'
+    '_ga' => 'GA1.1.1793657689.1426807599'
+    'PHPSESSID' => 'l3rgu7h906et282ckjqjb8pf76'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds%3A32%3A%22T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY%22%3B; _gat=1; _ga=GA1.1.1793657689.1426807599; PHPSESSID=l3rgu7h906et282ckjqjb8pf76'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\:C:\\php\\;C:\\Program Files (x86)\\OpenSSH\\bin;C:\\Program Files (x86)\\MySQL\\MySQL Utilities 1.3.6\\;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '56061'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=contactos%2Findex'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=contactos%2Findex'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1426813669.875
+    'REQUEST_TIME' => 1426813669
+]
+2015-03-19 20:52:18 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: correo' in C:\Apache24\htdocs\eurekaca\frontend\models\Contactos.php:69
+Stack trace:
+#0 C:\Apache24\htdocs\eurekaca\frontend\models\Contactos.php(69): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\Apache24\\htd...', 69, Array)
+#1 C:\Apache24\htdocs\eurekaca\frontend\controllers\SiteController.php(119): frontend\models\Contactos->sendEmail('admin@example.c...')
+#2 [internal function]: frontend\controllers\SiteController->actionNuevocontacto()
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('nuevocontacto', Array)
+#6 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/nuevoconta...', Array)
+#7 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\Apache24\htdocs\eurekaca\frontend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+2015-03-19 20:52:17 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/nuevocontacto'
+]
+
+$_POST = [
+    '_csrf' => 'YUp2WmFnSDk1fQM4GDAADQAnQW44CBpYWToPCVE0DnUbIBQAJSAwYA=='
+    'Contactos' => [
+        'nombre' => 'juan'
+        'correo' => 'rivas'
+        'telefono' => 'snsjsbjs'
+        'descripcion' => 'ffffffffffffffffffff'
+        'verifyCode' => 'atccze'
+    ]
+    'contact-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => '5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds:32:\"T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY\";'
+    '_gat' => '1'
+    '_ga' => 'GA1.1.1793657689.1426807599'
+    'PHPSESSID' => 'l3rgu7h906et282ckjqjb8pf76'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'opkzmww'
+    '__captcha/site/captchacount' => 1
+    '__returnUrl' => '/cedani/backend/web/'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '251'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?r=site%2Fnuevocontacto'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds%3A32%3A%22T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY%22%3B; _gat=1; _ga=GA1.1.1793657689.1426807599; PHPSESSID=l3rgu7h906et282ckjqjb8pf76'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\:C:\\php\\;C:\\Program Files (x86)\\OpenSSH\\bin;C:\\Program Files (x86)\\MySQL\\MySQL Utilities 1.3.6\\;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '56243'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Fnuevocontacto'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fnuevocontacto'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1426814537.777
+    'REQUEST_TIME' => 1426814537
+]
+2015-03-19 20:53:07 [127.0.0.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: frontend\models\Contactos::email' in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\db\BaseActiveRecord.php(247): yii\base\Component->__get('email')
+#1 C:\Apache24\htdocs\eurekaca\frontend\models\Contactos.php(70): yii\db\BaseActiveRecord->__get('email')
+#2 C:\Apache24\htdocs\eurekaca\frontend\controllers\SiteController.php(119): frontend\models\Contactos->sendEmail('admin@example.c...')
+#3 [internal function]: frontend\controllers\SiteController->actionNuevocontacto()
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('nuevocontacto', Array)
+#7 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/nuevoconta...', Array)
+#8 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\Apache24\htdocs\eurekaca\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2015-03-19 20:53:04 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/nuevocontacto'
+]
+
+$_POST = [
+    '_csrf' => 'bG5fclNSa3g4WSoQKgUjTA0DaEYKPTkZVB4mIWMBLTQWBD0oFxUTIQ=='
+    'Contactos' => [
+        'nombre' => 'raul'
+        'correo' => 'djdbjdb'
+        'telefono' => 'dkdnkdkdd'
+        'descripcion' => 'fdddddddddddd'
+        'verifyCode' => 'opkzmww'
+    ]
+    'contact-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => '5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds:32:\"T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY\";'
+    '_gat' => '1'
+    '_ga' => 'GA1.1.1793657689.1426807599'
+    'PHPSESSID' => 'l3rgu7h906et282ckjqjb8pf76'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'ainezqp'
+    '__captcha/site/captchacount' => 1
+    '__returnUrl' => '/cedani/backend/web/'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '248'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?r=site%2Fnuevocontacto'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds%3A32%3A%22T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY%22%3B; _gat=1; _ga=GA1.1.1793657689.1426807599; PHPSESSID=l3rgu7h906et282ckjqjb8pf76'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\:C:\\php\\;C:\\Program Files (x86)\\OpenSSH\\bin;C:\\Program Files (x86)\\MySQL\\MySQL Utilities 1.3.6\\;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '56260'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Fnuevocontacto'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fnuevocontacto'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1426814584.459
+    'REQUEST_TIME' => 1426814584
+]
+2015-03-19 20:55:40 [127.0.0.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: frontend\models\Contactos::email' in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\db\BaseActiveRecord.php(247): yii\base\Component->__get('email')
+#1 C:\Apache24\htdocs\eurekaca\frontend\models\Contactos.php(70): yii\db\BaseActiveRecord->__get('email')
+#2 C:\Apache24\htdocs\eurekaca\frontend\controllers\SiteController.php(119): frontend\models\Contactos->sendEmail('admin@example.c...')
+#3 [internal function]: frontend\controllers\SiteController->actionNuevocontacto()
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('nuevocontacto', Array)
+#7 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/nuevoconta...', Array)
+#8 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\Apache24\htdocs\eurekaca\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2015-03-19 20:55:40 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/nuevocontacto'
+]
+
+$_POST = [
+    '_csrf' => 'WXRFNW5KdmoNQzBXFx0.XjgZcgE3JSQLYQQ8Zl4ZMCYjHidvKg0OMw=='
+    'Contactos' => [
+        'nombre' => 'ddd'
+        'correo' => 'dddddd'
+        'telefono' => 'ddddddddddddd'
+        'descripcion' => 'dddddddddddddd'
+        'verifyCode' => 'votens'
+    ]
+    'contact-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => '5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds:32:\"T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY\";'
+    '_gat' => '1'
+    '_ga' => 'GA1.1.1793657689.1426807599'
+    'PHPSESSID' => 'l3rgu7h906et282ckjqjb8pf76'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'nfyobdw'
+    '__captcha/site/captchacount' => 1
+    '__returnUrl' => '/cedani/backend/web/'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '250'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?r=site%2Fnuevocontacto'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds%3A32%3A%22T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY%22%3B; _gat=1; _ga=GA1.1.1793657689.1426807599; PHPSESSID=l3rgu7h906et282ckjqjb8pf76'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\:C:\\php\\;C:\\Program Files (x86)\\OpenSSH\\bin;C:\\Program Files (x86)\\MySQL\\MySQL Utilities 1.3.6\\;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '56314'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Fnuevocontacto'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fnuevocontacto'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1426814740.538
+    'REQUEST_TIME' => 1426814740
+]
+2015-03-19 20:59:24 [127.0.0.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: frontend\models\Contactos::email' in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\db\BaseActiveRecord.php(247): yii\base\Component->__get('email')
+#1 C:\Apache24\htdocs\eurekaca\frontend\models\Contactos.php(70): yii\db\BaseActiveRecord->__get('email')
+#2 C:\Apache24\htdocs\eurekaca\frontend\controllers\SiteController.php(119): frontend\models\Contactos->sendEmail('admin@example.c...')
+#3 [internal function]: frontend\controllers\SiteController->actionNuevocontacto()
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('nuevocontacto', Array)
+#7 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/nuevoconta...', Array)
+#8 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\Apache24\htdocs\eurekaca\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2015-03-19 20:59:23 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/nuevocontacto'
+]
+
+$_POST = [
+    '_csrf' => 'Qjd3RXREMlEWAAInDRN6ZSNaQHEtK2AwekcOFkQXdB04XRUfMANKCA=='
+    'Contactos' => [
+        'nombre' => 'ssssss'
+        'correo' => 'ssssssssssss'
+        'telefono' => 'sssssssss'
+        'descripcion' => 'ssssssssssss'
+        'verifyCode' => 'nfyobdw'
+    ]
+    'contact-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => '5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds:32:\"T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY\";'
+    '_gat' => '1'
+    '_ga' => 'GA1.1.1793657689.1426807599'
+    'PHPSESSID' => 'l3rgu7h906et282ckjqjb8pf76'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'soyofqj'
+    '__captcha/site/captchacount' => 1
+    '__returnUrl' => '/cedani/backend/web/'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '254'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?r=site%2Fnuevocontacto'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds%3A32%3A%22T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY%22%3B; _gat=1; _ga=GA1.1.1793657689.1426807599; PHPSESSID=l3rgu7h906et282ckjqjb8pf76'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\:C:\\php\\;C:\\Program Files (x86)\\OpenSSH\\bin;C:\\Program Files (x86)\\MySQL\\MySQL Utilities 1.3.6\\;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '56373'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Fnuevocontacto'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fnuevocontacto'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1426814963.926
+    'REQUEST_TIME' => 1426814963
+]
+2015-03-19 21:03:17 [127.0.0.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: frontend\models\Contactos::email' in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\db\BaseActiveRecord.php(247): yii\base\Component->__get('email')
+#1 C:\Apache24\htdocs\eurekaca\frontend\models\Contactos.php(70): yii\db\BaseActiveRecord->__get('email')
+#2 C:\Apache24\htdocs\eurekaca\frontend\controllers\SiteController.php(119): frontend\models\Contactos->sendEmail('admin@example.c...')
+#3 [internal function]: frontend\controllers\SiteController->actionNuevocontacto()
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('nuevocontacto', Array)
+#7 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/nuevoconta...', Array)
+#8 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\Apache24\htdocs\eurekaca\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2015-03-19 21:03:16 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/nuevocontacto'
+]
+
+$_POST = [
+    '_csrf' => 'X3o4bS5lb2wLTU0PVzInWD4XD1l3Cj0NZwpBPh42KSAlEFo3aiIXNQ=='
+    'Contactos' => [
+        'nombre' => 'dddddddddd'
+        'correo' => 'dddddddddd'
+        'telefono' => 'ddddddddd'
+        'descripcion' => 'dddddddddd'
+        'verifyCode' => 'yixzzm'
+    ]
+    'contact-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => '5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds:32:\"T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY\";'
+    '_ga' => 'GA1.1.1793657689.1426807599'
+    '_gat' => '1'
+    'PHPSESSID' => 'l3rgu7h906et282ckjqjb8pf76'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'gimedu'
+    '__captcha/site/captchacount' => 1
+    '__returnUrl' => '/cedani/backend/web/'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '253'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?r=site%2Fnuevocontacto'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds%3A32%3A%22T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY%22%3B; _ga=GA1.1.1793657689.1426807599; _gat=1; PHPSESSID=l3rgu7h906et282ckjqjb8pf76'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\:C:\\php\\;C:\\Program Files (x86)\\OpenSSH\\bin;C:\\Program Files (x86)\\MySQL\\MySQL Utilities 1.3.6\\;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '56436'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Fnuevocontacto'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fnuevocontacto'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1426815196.443
+    'REQUEST_TIME' => 1426815196
+]
+2015-03-19 21:04:08 [127.0.0.1][-][-][error][Swift_RfcComplianceException] exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [cccccccc] does not comply with RFC 2822, 3.6.2.' in C:\Apache24\htdocs\eurekaca\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mime\Headers\MailboxHeader.php:348
+Stack trace:
+#0 C:\Apache24\htdocs\eurekaca\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mime\Headers\MailboxHeader.php(263): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('cccccccc')
+#1 C:\Apache24\htdocs\eurekaca\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mime\Headers\MailboxHeader.php(106): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 C:\Apache24\htdocs\eurekaca\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mime\Headers\MailboxHeader.php(63): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 C:\Apache24\htdocs\eurekaca\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mime\SimpleMimeEntity.php(602): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mime\SimpleMessage.php(213): Swift_Mime_SimpleMimeEntity->_setHeaderFieldModel('From', Array)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-swiftmailer\Message.php(76): Swift_Mime_SimpleMessage->setFrom(Array)
+#6 C:\Apache24\htdocs\eurekaca\frontend\models\Contactos.php(70): yii\swiftmailer\Message->setFrom(Array)
+#7 C:\Apache24\htdocs\eurekaca\frontend\controllers\SiteController.php(119): frontend\models\Contactos->sendEmail('admin@example.c...')
+#8 [internal function]: frontend\controllers\SiteController->actionNuevocontacto()
+#9 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#10 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#11 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('nuevocontacto', Array)
+#12 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/nuevoconta...', Array)
+#13 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 C:\Apache24\htdocs\eurekaca\frontend\web\index.php(18): yii\base\Application->run()
+#15 {main}
+2015-03-19 21:04:08 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/nuevocontacto'
+]
+
+$_POST = [
+    '_csrf' => 'X0ZFdnhWN0QLcTAUAQF/cD4rckIhOWUlZzY8JUgFcQglLCcsPBFPHQ=='
+    'Contactos' => [
+        'nombre' => 'cccccccc'
+        'correo' => 'cccccccc'
+        'telefono' => 'ccccccc'
+        'descripcion' => 'cccccccc'
+        'verifyCode' => 'gimedu'
+    ]
+    'contact-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => '5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds:32:\"T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY\";'
+    '_gat' => '1'
+    '_ga' => 'GA1.1.1793657689.1426807599'
+    'PHPSESSID' => 'l3rgu7h906et282ckjqjb8pf76'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'biaotdx'
+    '__captcha/site/captchacount' => 1
+    '__returnUrl' => '/cedani/backend/web/'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '247'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?r=site%2Fnuevocontacto'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds%3A32%3A%22T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY%22%3B; _gat=1; _ga=GA1.1.1793657689.1426807599; PHPSESSID=l3rgu7h906et282ckjqjb8pf76'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\:C:\\php\\;C:\\Program Files (x86)\\OpenSSH\\bin;C:\\Program Files (x86)\\MySQL\\MySQL Utilities 1.3.6\\;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '56458'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Fnuevocontacto'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fnuevocontacto'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1426815248.183
+    'REQUEST_TIME' => 1426815248
+]
+2015-03-19 21:05:49 [127.0.0.1][-][-][error][Swift_RfcComplianceException] exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [sssssss] does not comply with RFC 2822, 3.6.2.' in C:\Apache24\htdocs\eurekaca\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mime\Headers\MailboxHeader.php:348
+Stack trace:
+#0 C:\Apache24\htdocs\eurekaca\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mime\Headers\MailboxHeader.php(263): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('sssssss')
+#1 C:\Apache24\htdocs\eurekaca\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mime\Headers\MailboxHeader.php(106): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 C:\Apache24\htdocs\eurekaca\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mime\Headers\MailboxHeader.php(63): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 C:\Apache24\htdocs\eurekaca\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mime\SimpleMimeEntity.php(602): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mime\SimpleMessage.php(213): Swift_Mime_SimpleMimeEntity->_setHeaderFieldModel('From', Array)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-swiftmailer\Message.php(76): Swift_Mime_SimpleMessage->setFrom('sssssss')
+#6 C:\Apache24\htdocs\eurekaca\frontend\models\Contactos.php(70): yii\swiftmailer\Message->setFrom('sssssss')
+#7 C:\Apache24\htdocs\eurekaca\frontend\controllers\SiteController.php(119): frontend\models\Contactos->sendEmail('admin@example.c...')
+#8 [internal function]: frontend\controllers\SiteController->actionNuevocontacto()
+#9 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#10 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#11 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('nuevocontacto', Array)
+#12 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/nuevoconta...', Array)
+#13 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 C:\Apache24\htdocs\eurekaca\frontend\web\index.php(18): yii\base\Application->run()
+#15 {main}
+2015-03-19 21:05:49 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/nuevocontacto'
+]
+
+$_POST = [
+    '_csrf' => 'QTZVUl9BQkUVASAwJhYKcSBbYmYGLhAkeUYsAW8SBAk7XDcIGwY6HA=='
+    'Contactos' => [
+        'nombre' => 'cccccccc'
+        'correo' => 'sssssss'
+        'telefono' => 'fffff'
+        'descripcion' => 'ttttttt'
+        'verifyCode' => 'legopic'
+    ]
+    'contact-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => '5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds:32:\"T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY\";'
+    '_gat' => '1'
+    '_ga' => 'GA1.1.1793657689.1426807599'
+    'PHPSESSID' => 'l3rgu7h906et282ckjqjb8pf76'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'nnyebih'
+    '__captcha/site/captchacount' => 1
+    '__returnUrl' => '/cedani/backend/web/'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '242'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?r=site%2Fnuevocontacto'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds%3A32%3A%22T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY%22%3B; _gat=1; _ga=GA1.1.1793657689.1426807599; PHPSESSID=l3rgu7h906et282ckjqjb8pf76'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\:C:\\php\\;C:\\Program Files (x86)\\OpenSSH\\bin;C:\\Program Files (x86)\\MySQL\\MySQL Utilities 1.3.6\\;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '56494'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Fnuevocontacto'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fnuevocontacto'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1426815349.061
+    'REQUEST_TIME' => 1426815349
+]
+2015-03-19 21:19:13 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'app\models\Contactos' in file: C:\Apache24\htdocs\eurekaca\frontend/models/Contactos.php. Namespace missing?' in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\models\\Cont...')
+#1 C:\Apache24\htdocs\eurekaca\frontend\models\ContactosSearch.php(14): spl_autoload_call('app\\models\\Cont...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\BaseYii.php(288): include('C:\\Apache24\\htd...')
+#3 [internal function]: yii\BaseYii::autoload('app\\models\\Cont...')
+#4 C:\Apache24\htdocs\eurekaca\frontend\controllers\ContactosController.php(35): spl_autoload_call('app\\models\\Cont...')
+#5 [internal function]: frontend\controllers\ContactosController->actionIndex()
+#6 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#7 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#8 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#9 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('contactos', Array)
+#10 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Apache24\htdocs\eurekaca\frontend\web\index.php(18): yii\base\Application->run()
+#12 {main}
+2015-03-19 21:19:13 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'contactos'
+]
+
+$_COOKIE = [
+    '_csrf' => '5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds:32:\"T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY\";'
+    'PHPSESSID' => 'l3rgu7h906et282ckjqjb8pf76'
+    '_ga' => 'GA1.1.1793657689.1426807599'
+    '_gat' => '1'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds%3A32%3A%22T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY%22%3B; PHPSESSID=l3rgu7h906et282ckjqjb8pf76; _ga=GA1.1.1793657689.1426807599; _gat=1'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\:C:\\php\\;C:\\Program Files (x86)\\OpenSSH\\bin;C:\\Program Files (x86)\\MySQL\\MySQL Utilities 1.3.6\\;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '56678'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=contactos'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=contactos'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1426816153.456
+    'REQUEST_TIME' => 1426816153
+]
+2015-03-19 21:19:37 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'frontend\models\Contactos' in file: C:\Apache24\htdocs\eurekaca/frontend/models/Contactos.php. Namespace missing?' in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('frontend\\models...')
+#1 C:\Apache24\htdocs\eurekaca\frontend\controllers\SiteController.php(116): spl_autoload_call('frontend\\models...')
+#2 [internal function]: frontend\controllers\SiteController->actionNuevocontacto()
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('nuevocontacto', Array)
+#6 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/nuevoconta...', Array)
+#7 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\Apache24\htdocs\eurekaca\frontend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+2015-03-19 21:19:37 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/nuevocontacto'
+]
+
+$_COOKIE = [
+    '_csrf' => '5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds:32:\"T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY\";'
+    'PHPSESSID' => 'l3rgu7h906et282ckjqjb8pf76'
+    '_gat' => '1'
+    '_ga' => 'GA1.1.1793657689.1426807599'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?r=contactos'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds%3A32%3A%22T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY%22%3B; PHPSESSID=l3rgu7h906et282ckjqjb8pf76; _gat=1; _ga=GA1.1.1793657689.1426807599'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\:C:\\php\\;C:\\Program Files (x86)\\OpenSSH\\bin;C:\\Program Files (x86)\\MySQL\\MySQL Utilities 1.3.6\\;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '56681'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fnuevocontacto'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fnuevocontacto'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1426816177.73
+    'REQUEST_TIME' => 1426816177
+]
+2015-03-19 21:22:23 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'frontend\models\Contactos' in file: C:\Apache24\htdocs\eurekaca/frontend/models/Contactos.php. Namespace missing?' in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('frontend\\models...')
+#1 C:\Apache24\htdocs\eurekaca\frontend\controllers\SiteController.php(116): spl_autoload_call('frontend\\models...')
+#2 [internal function]: frontend\controllers\SiteController->actionNuevocontacto()
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('nuevocontacto', Array)
+#6 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/nuevoconta...', Array)
+#7 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\Apache24\htdocs\eurekaca\frontend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+2015-03-19 21:22:23 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/nuevocontacto'
+]
+
+$_COOKIE = [
+    '_csrf' => '5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds:32:\"T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY\";'
+    'PHPSESSID' => 'l3rgu7h906et282ckjqjb8pf76'
+    '_gat' => '1'
+    '_ga' => 'GA1.1.1793657689.1426807599'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?r=contactos'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds%3A32%3A%22T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY%22%3B; PHPSESSID=l3rgu7h906et282ckjqjb8pf76; _gat=1; _ga=GA1.1.1793657689.1426807599'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\:C:\\php\\;C:\\Program Files (x86)\\OpenSSH\\bin;C:\\Program Files (x86)\\MySQL\\MySQL Utilities 1.3.6\\;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '56710'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fnuevocontacto'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fnuevocontacto'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1426816343.252
+    'REQUEST_TIME' => 1426816343
+]
+2015-03-19 21:22:42 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'frontend\models\Contactos' in file: C:\Apache24\htdocs\eurekaca/frontend/models/Contactos.php. Namespace missing?' in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('frontend\\models...')
+#1 C:\Apache24\htdocs\eurekaca\frontend\controllers\SiteController.php(116): spl_autoload_call('frontend\\models...')
+#2 [internal function]: frontend\controllers\SiteController->actionNuevocontacto()
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('nuevocontacto', Array)
+#6 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/nuevoconta...', Array)
+#7 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\Apache24\htdocs\eurekaca\frontend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+2015-03-19 21:22:42 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/nuevocontacto'
+]
+
+$_COOKIE = [
+    '_csrf' => '5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds:32:\"T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY\";'
+    '_gat' => '1'
+    '_ga' => 'GA1.1.1793657689.1426807599'
+    'PHPSESSID' => 'l3rgu7h906et282ckjqjb8pf76'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?r=site%2Fcontact'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds%3A32%3A%22T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY%22%3B; _gat=1; _ga=GA1.1.1793657689.1426807599; PHPSESSID=l3rgu7h906et282ckjqjb8pf76'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\:C:\\php\\;C:\\Program Files (x86)\\OpenSSH\\bin;C:\\Program Files (x86)\\MySQL\\MySQL Utilities 1.3.6\\;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '56717'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fnuevocontacto'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fnuevocontacto'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1426816362.142
+    'REQUEST_TIME' => 1426816362
+]
+2015-03-19 21:24:41 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'app\models\Contactos' in file: C:\Apache24\htdocs\eurekaca\frontend/models/Contactos.php. Namespace missing?' in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\models\\Cont...')
+#1 C:\Apache24\htdocs\eurekaca\frontend\models\ContactosSearch.php(14): spl_autoload_call('app\\models\\Cont...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\BaseYii.php(288): include('C:\\Apache24\\htd...')
+#3 [internal function]: yii\BaseYii::autoload('app\\models\\Cont...')
+#4 C:\Apache24\htdocs\eurekaca\frontend\controllers\ContactosController.php(35): spl_autoload_call('app\\models\\Cont...')
+#5 [internal function]: frontend\controllers\ContactosController->actionIndex()
+#6 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#7 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#8 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#9 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('contactos', Array)
+#10 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Apache24\htdocs\eurekaca\frontend\web\index.php(18): yii\base\Application->run()
+#12 {main}
+2015-03-19 21:24:41 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'contactos'
+]
+
+$_COOKIE = [
+    '_csrf' => '5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds:32:\"T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY\";'
+    '_gat' => '1'
+    '_ga' => 'GA1.1.1793657689.1426807599'
+    'PHPSESSID' => 'l3rgu7h906et282ckjqjb8pf76'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds%3A32%3A%22T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY%22%3B; _gat=1; _ga=GA1.1.1793657689.1426807599; PHPSESSID=l3rgu7h906et282ckjqjb8pf76'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\:C:\\php\\;C:\\Program Files (x86)\\OpenSSH\\bin;C:\\Program Files (x86)\\MySQL\\MySQL Utilities 1.3.6\\;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '56742'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=contactos'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=contactos'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1426816481.377
+    'REQUEST_TIME' => 1426816481
+]
+2015-03-19 21:27:14 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'app\models\Contactos' in file: C:\Apache24\htdocs\eurekaca\frontend/models/Contactos.php. Namespace missing?' in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\models\\Cont...')
+#1 C:\Apache24\htdocs\eurekaca\frontend\models\ContactosSearch.php(14): spl_autoload_call('app\\models\\Cont...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\BaseYii.php(288): include('C:\\Apache24\\htd...')
+#3 [internal function]: yii\BaseYii::autoload('app\\models\\Cont...')
+#4 C:\Apache24\htdocs\eurekaca\frontend\controllers\ContactosController.php(35): spl_autoload_call('app\\models\\Cont...')
+#5 [internal function]: frontend\controllers\ContactosController->actionIndex()
+#6 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#7 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#8 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#9 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('contactos', Array)
+#10 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Apache24\htdocs\eurekaca\frontend\web\index.php(18): yii\base\Application->run()
+#12 {main}
+2015-03-19 21:27:14 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'contactos'
+]
+
+$_COOKIE = [
+    '_csrf' => '5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds:32:\"T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY\";'
+    '_gat' => '1'
+    '_ga' => 'GA1.1.1793657689.1426807599'
+    'PHPSESSID' => 'l3rgu7h906et282ckjqjb8pf76'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds%3A32%3A%22T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY%22%3B; _gat=1; _ga=GA1.1.1793657689.1426807599; PHPSESSID=l3rgu7h906et282ckjqjb8pf76'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\:C:\\php\\;C:\\Program Files (x86)\\OpenSSH\\bin;C:\\Program Files (x86)\\MySQL\\MySQL Utilities 1.3.6\\;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '56773'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=contactos'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=contactos'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1426816634.701
+    'REQUEST_TIME' => 1426816634
+]
+2015-03-19 21:28:44 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'app\models\Contactos' in file: C:\Apache24\htdocs\eurekaca\frontend/models/Contactos.php. Namespace missing?' in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\models\\Cont...')
+#1 C:\Apache24\htdocs\eurekaca\frontend\models\ContactosSearch.php(14): spl_autoload_call('app\\models\\Cont...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\BaseYii.php(288): include('C:\\Apache24\\htd...')
+#3 [internal function]: yii\BaseYii::autoload('frontend\\models...')
+#4 C:\Apache24\htdocs\eurekaca\frontend\controllers\ContactosController.php(35): spl_autoload_call('frontend\\models...')
+#5 [internal function]: frontend\controllers\ContactosController->actionIndex()
+#6 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#7 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#8 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#9 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('contactos', Array)
+#10 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Apache24\htdocs\eurekaca\frontend\web\index.php(18): yii\base\Application->run()
+#12 {main}
+2015-03-19 21:28:44 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'contactos'
+]
+
+$_COOKIE = [
+    '_csrf' => '5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds:32:\"T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY\";'
+    '_gat' => '1'
+    '_ga' => 'GA1.1.1793657689.1426807599'
+    'PHPSESSID' => 'l3rgu7h906et282ckjqjb8pf76'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds%3A32%3A%22T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY%22%3B; _gat=1; _ga=GA1.1.1793657689.1426807599; PHPSESSID=l3rgu7h906et282ckjqjb8pf76'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\:C:\\php\\;C:\\Program Files (x86)\\OpenSSH\\bin;C:\\Program Files (x86)\\MySQL\\MySQL Utilities 1.3.6\\;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '56794'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=contactos'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=contactos'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1426816724.652
+    'REQUEST_TIME' => 1426816724
+]
+2015-03-19 21:40:34 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Illegal offset type in isset or empty' in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\web\Request.php:429
+Stack trace:
+#0 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\web\Request.php(429): yii\base\ErrorHandler->handleError(2, 'Illegal offset ...', 'C:\\Apache24\\htd...', 429, Array)
+#1 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\web\Request.php(444): yii\web\Request->getBodyParam(Array, NULL)
+#2 C:\Apache24\htdocs\eurekaca\frontend\controllers\SiteController.php(117): yii\web\Request->post(Array)
+#3 [internal function]: frontend\controllers\SiteController->actionNuevocontacto()
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('nuevocontacto', Array)
+#7 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/nuevoconta...', Array)
+#8 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\Apache24\htdocs\eurekaca\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2015-03-19 21:40:33 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/nuevocontacto'
+]
+
+$_COOKIE = [
+    '_csrf' => '5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds:32:\"T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY\";'
+    '_gat' => '1'
+    'PHPSESSID' => 'l3rgu7h906et282ckjqjb8pf76'
+    '_ga' => 'GA1.1.1793657689.1426807599'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds%3A32%3A%22T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY%22%3B; _gat=1; PHPSESSID=l3rgu7h906et282ckjqjb8pf76; _ga=GA1.1.1793657689.1426807599'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\:C:\\php\\;C:\\Program Files (x86)\\OpenSSH\\bin;C:\\Program Files (x86)\\MySQL\\MySQL Utilities 1.3.6\\;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '57005'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fnuevocontacto'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fnuevocontacto'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1426817433.632
+    'REQUEST_TIME' => 1426817433
+]
+2015-03-19 21:41:05 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Illegal offset type in isset or empty' in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\web\Request.php:429
+Stack trace:
+#0 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\web\Request.php(429): yii\base\ErrorHandler->handleError(2, 'Illegal offset ...', 'C:\\Apache24\\htd...', 429, Array)
+#1 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\web\Request.php(444): yii\web\Request->getBodyParam(Array, NULL)
+#2 C:\Apache24\htdocs\eurekaca\frontend\controllers\SiteController.php(117): yii\web\Request->post(Array)
+#3 [internal function]: frontend\controllers\SiteController->actionNuevocontacto()
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('nuevocontacto', Array)
+#7 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/nuevoconta...', Array)
+#8 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\Apache24\htdocs\eurekaca\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2015-03-19 21:41:05 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/nuevocontacto'
+]
+
+$_COOKIE = [
+    '_csrf' => '5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds:32:\"T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY\";'
+    '_gat' => '1'
+    'PHPSESSID' => 'l3rgu7h906et282ckjqjb8pf76'
+    '_ga' => 'GA1.1.1793657689.1426807599'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds%3A32%3A%22T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY%22%3B; _gat=1; PHPSESSID=l3rgu7h906et282ckjqjb8pf76; _ga=GA1.1.1793657689.1426807599'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\:C:\\php\\;C:\\Program Files (x86)\\OpenSSH\\bin;C:\\Program Files (x86)\\MySQL\\MySQL Utilities 1.3.6\\;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '57011'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fnuevocontacto'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fnuevocontacto'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1426817465.604
+    'REQUEST_TIME' => 1426817465
+]
+2015-03-19 22:04:40 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to undefined method Yii::app()' in C:\Apache24\htdocs\eurekaca\frontend\controllers\ContactosController.php:69
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-03-19 22:04:40 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'contactos/create'
+]
+
+$_COOKIE = [
+    '_csrf' => '5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds:32:\"T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY\";'
+    '_gat' => '1'
+    'PHPSESSID' => 'l3rgu7h906et282ckjqjb8pf76'
+    '_ga' => 'GA1.1.1793657689.1426807599'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?r=contactos'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds%3A32%3A%22T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY%22%3B; _gat=1; PHPSESSID=l3rgu7h906et282ckjqjb8pf76; _ga=GA1.1.1793657689.1426807599'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\:C:\\php\\;C:\\Program Files (x86)\\OpenSSH\\bin;C:\\Program Files (x86)\\MySQL\\MySQL Utilities 1.3.6\\;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '57393'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=contactos%2Fcreate'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=contactos%2Fcreate'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1426818880.064
+    'REQUEST_TIME' => 1426818880
+]
+2015-03-19 22:13:44 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'frontend\models\Contactos' in file: C:\Apache24\htdocs\eurekaca/frontend/models/Contactos.php. Namespace missing?' in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('frontend\\models...')
+#1 C:\Apache24\htdocs\eurekaca\frontend\controllers\SiteController.php(116): spl_autoload_call('frontend\\models...')
+#2 [internal function]: frontend\controllers\SiteController->actionNuevocontacto()
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('nuevocontacto', Array)
+#6 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/nuevoconta...', Array)
+#7 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\Apache24\htdocs\eurekaca\frontend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+2015-03-19 22:13:44 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/nuevocontacto'
+]
+
+$_COOKIE = [
+    '_csrf' => '5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds:32:\"T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY\";'
+    'PHPSESSID' => 'l3rgu7h906et282ckjqjb8pf76'
+    '_gat' => '1'
+    '_ga' => 'GA1.1.1793657689.1426807599'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?r=contactos%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds%3A32%3A%22T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY%22%3B; PHPSESSID=l3rgu7h906et282ckjqjb8pf76; _gat=1; _ga=GA1.1.1793657689.1426807599'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\:C:\\php\\;C:\\Program Files (x86)\\OpenSSH\\bin;C:\\Program Files (x86)\\MySQL\\MySQL Utilities 1.3.6\\;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '57540'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fnuevocontacto'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fnuevocontacto'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1426819424.831
+    'REQUEST_TIME' => 1426819424
+]
+2015-03-19 22:14:47 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'app\models\Contactos' in file: C:\Apache24\htdocs\eurekaca\frontend/models/Contactos.php. Namespace missing?' in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\models\\Cont...')
+#1 C:\Apache24\htdocs\eurekaca\frontend\models\ContactosSearch.php(14): spl_autoload_call('app\\models\\Cont...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\BaseYii.php(288): include('C:\\Apache24\\htd...')
+#3 [internal function]: yii\BaseYii::autoload('app\\models\\Cont...')
+#4 C:\Apache24\htdocs\eurekaca\frontend\controllers\ContactosController.php(35): spl_autoload_call('app\\models\\Cont...')
+#5 [internal function]: frontend\controllers\ContactosController->actionIndex()
+#6 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#7 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#8 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#9 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('contactos', Array)
+#10 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Apache24\htdocs\eurekaca\frontend\web\index.php(18): yii\base\Application->run()
+#12 {main}
+2015-03-19 22:14:47 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'contactos'
+]
+
+$_COOKIE = [
+    '_csrf' => '5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds:32:\"T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY\";'
+    '_gat' => '1'
+    '_ga' => 'GA1.1.1793657689.1426807599'
+    'PHPSESSID' => 'l3rgu7h906et282ckjqjb8pf76'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds%3A32%3A%22T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY%22%3B; _gat=1; _ga=GA1.1.1793657689.1426807599; PHPSESSID=l3rgu7h906et282ckjqjb8pf76'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\:C:\\php\\;C:\\Program Files (x86)\\OpenSSH\\bin;C:\\Program Files (x86)\\MySQL\\MySQL Utilities 1.3.6\\;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '57566'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=contactos'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=contactos'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1426819487.327
+    'REQUEST_TIME' => 1426819487
+]
+2015-03-19 22:20:30 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'app\models\Contactos' in file: C:\Apache24\htdocs\eurekaca\frontend/models/Contactos.php. Namespace missing?' in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\models\\Cont...')
+#1 C:\Apache24\htdocs\eurekaca\frontend\models\ContactosSearch.php(14): spl_autoload_call('app\\models\\Cont...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\BaseYii.php(288): include('C:\\Apache24\\htd...')
+#3 [internal function]: yii\BaseYii::autoload('app\\models\\Cont...')
+#4 C:\Apache24\htdocs\eurekaca\frontend\controllers\ContactosController.php(35): spl_autoload_call('app\\models\\Cont...')
+#5 [internal function]: frontend\controllers\ContactosController->actionIndex()
+#6 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#7 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#8 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#9 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('contactos', Array)
+#10 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Apache24\htdocs\eurekaca\frontend\web\index.php(18): yii\base\Application->run()
+#12 {main}
+2015-03-19 22:20:30 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'contactos'
+]
+
+$_COOKIE = [
+    '_csrf' => '5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds:32:\"T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY\";'
+    '_ga' => 'GA1.1.1793657689.1426807599'
+    'PHPSESSID' => 'l3rgu7h906et282ckjqjb8pf76'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds%3A32%3A%22T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY%22%3B; _ga=GA1.1.1793657689.1426807599; PHPSESSID=l3rgu7h906et282ckjqjb8pf76'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\:C:\\php\\;C:\\Program Files (x86)\\OpenSSH\\bin;C:\\Program Files (x86)\\MySQL\\MySQL Utilities 1.3.6\\;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '57634'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=contactos'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=contactos'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1426819830.45
+    'REQUEST_TIME' => 1426819830
+]
+2015-03-19 22:45:21 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'frontend\models\Contactos' in file: C:\Apache24\htdocs\eurekaca/frontend/models/Contactos.php. Namespace missing?' in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('frontend\\models...')
+#1 C:\Apache24\htdocs\eurekaca\frontend\controllers\SiteController.php(116): spl_autoload_call('frontend\\models...')
+#2 [internal function]: frontend\controllers\SiteController->actionNuevocontacto()
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('nuevocontacto', Array)
+#6 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/nuevoconta...', Array)
+#7 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\Apache24\htdocs\eurekaca\frontend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+2015-03-19 22:45:21 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/nuevocontacto'
+]
+
+$_COOKIE = [
+    '_csrf' => '5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds:32:\"T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY\";'
+    '_ga' => 'GA1.1.1793657689.1426807599'
+    '_gat' => '1'
+    'PHPSESSID' => 'l3rgu7h906et282ckjqjb8pf76'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?r=site%2Fcontact'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds%3A32%3A%22T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY%22%3B; _ga=GA1.1.1793657689.1426807599; _gat=1; PHPSESSID=l3rgu7h906et282ckjqjb8pf76'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\:C:\\php\\;C:\\Program Files (x86)\\OpenSSH\\bin;C:\\Program Files (x86)\\MySQL\\MySQL Utilities 1.3.6\\;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '57934'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fnuevocontacto'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fnuevocontacto'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1426821321.278
+    'REQUEST_TIME' => 1426821321
+]
+2015-03-19 22:51:07 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'app\models\ContactForm' in file: C:\Apache24\htdocs\eurekaca\frontend/models/ContactForm.php. Namespace missing?' in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\models\\Cont...')
+#1 C:\Apache24\htdocs\eurekaca\frontend\controllers\SiteController.php(99): spl_autoload_call('app\\models\\Cont...')
+#2 [internal function]: frontend\controllers\SiteController->actionContact()
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('contact', Array)
+#6 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/contact', Array)
+#7 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\Apache24\htdocs\eurekaca\frontend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+2015-03-19 22:51:07 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_COOKIE = [
+    '_csrf' => '5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds:32:\"T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY\";'
+    '_gat' => '1'
+    'PHPSESSID' => 'l3rgu7h906et282ckjqjb8pf76'
+    '_ga' => 'GA1.1.1793657689.1426807599'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?r=site%2Fnuevocontacto'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds%3A32%3A%22T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY%22%3B; _gat=1; PHPSESSID=l3rgu7h906et282ckjqjb8pf76; _ga=GA1.1.1793657689.1426807599'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\:C:\\php\\;C:\\Program Files (x86)\\OpenSSH\\bin;C:\\Program Files (x86)\\MySQL\\MySQL Utilities 1.3.6\\;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '58019'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1426821667.328
+    'REQUEST_TIME' => 1426821667
+]
+2015-03-19 22:54:12 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'app\models\ContactForm' in file: C:\Apache24\htdocs\eurekaca\frontend/models/ContactForm.php. Namespace missing?' in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\models\\Cont...')
+#1 C:\Apache24\htdocs\eurekaca\frontend\controllers\SiteController.php(99): spl_autoload_call('app\\models\\Cont...')
+#2 [internal function]: frontend\controllers\SiteController->actionContact()
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('contact', Array)
+#6 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/contact', Array)
+#7 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\Apache24\htdocs\eurekaca\frontend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+2015-03-19 22:54:12 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_COOKIE = [
+    '_csrf' => '5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds:32:\"T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY\";'
+    '_gat' => '1'
+    'PHPSESSID' => 'l3rgu7h906et282ckjqjb8pf76'
+    '_ga' => 'GA1.1.1793657689.1426807599'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?r=site%2Fnuevocontacto'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds%3A32%3A%22T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY%22%3B; _gat=1; PHPSESSID=l3rgu7h906et282ckjqjb8pf76; _ga=GA1.1.1793657689.1426807599'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\:C:\\php\\;C:\\Program Files (x86)\\OpenSSH\\bin;C:\\Program Files (x86)\\MySQL\\MySQL Utilities 1.3.6\\;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '58095'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1426821852.101
+    'REQUEST_TIME' => 1426821852
+]
+2015-03-19 22:54:12 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'app\models\ContactForm' in file: C:\Apache24\htdocs\eurekaca\frontend/models/ContactForm.php. Namespace missing?' in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\models\\Cont...')
+#1 C:\Apache24\htdocs\eurekaca\frontend\controllers\SiteController.php(99): spl_autoload_call('app\\models\\Cont...')
+#2 [internal function]: frontend\controllers\SiteController->actionContact()
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('contact', Array)
+#6 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/contact', Array)
+#7 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\Apache24\htdocs\eurekaca\frontend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+2015-03-19 22:54:12 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_COOKIE = [
+    '_csrf' => '5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds:32:\"T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY\";'
+    '_gat' => '1'
+    'PHPSESSID' => 'l3rgu7h906et282ckjqjb8pf76'
+    '_ga' => 'GA1.1.1793657689.1426807599'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?r=site%2Fnuevocontacto'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds%3A32%3A%22T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY%22%3B; _gat=1; PHPSESSID=l3rgu7h906et282ckjqjb8pf76; _ga=GA1.1.1793657689.1426807599'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\:C:\\php\\;C:\\Program Files (x86)\\OpenSSH\\bin;C:\\Program Files (x86)\\MySQL\\MySQL Utilities 1.3.6\\;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '58097'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1426821852.351
+    'REQUEST_TIME' => 1426821852
+]
+2015-03-19 22:54:38 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '@', expecting identifier (T_STRING) or \\ (T_NS_SEPARATOR) or '{'' in C:\Apache24\htdocs\eurekaca\frontend\models\ContactForm.php:3
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-03-19 22:54:38 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_COOKIE = [
+    '_csrf' => '5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds:32:\"T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY\";'
+    '_gat' => '1'
+    'PHPSESSID' => 'l3rgu7h906et282ckjqjb8pf76'
+    '_ga' => 'GA1.1.1793657689.1426807599'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?r=site%2Fnuevocontacto'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds%3A32%3A%22T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY%22%3B; _gat=1; PHPSESSID=l3rgu7h906et282ckjqjb8pf76; _ga=GA1.1.1793657689.1426807599'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\:C:\\php\\;C:\\Program Files (x86)\\OpenSSH\\bin;C:\\Program Files (x86)\\MySQL\\MySQL Utilities 1.3.6\\;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '58105'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1426821878.809
+    'REQUEST_TIME' => 1426821878
+]
+2015-03-19 22:55:08 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'frontend\controllers\SiteController' in file: C:\Apache24\htdocs\eurekaca/frontend/controllers/SiteController.php. Namespace missing?' in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('frontend\\contro...')
+#1 [internal function]: spl_autoload_call('frontend\\contro...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Module.php(563): class_exists('frontend\\contro...')
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Module.php(521): yii\base\Module->createControllerByID('site')
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('site/contact')
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/contact', Array)
+#6 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\Apache24\htdocs\eurekaca\frontend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2015-03-19 22:55:08 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_COOKIE = [
+    '_csrf' => '5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds:32:\"T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY\";'
+    '_gat' => '1'
+    '_ga' => 'GA1.1.1793657689.1426807599'
+    'PHPSESSID' => 'l3rgu7h906et282ckjqjb8pf76'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?r=site%2Fnuevocontacto'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf=5b9d39e0d59720f9ceada507b21ff2147e7007a3ab8e44df1f42515ce258b97ds%3A32%3A%22T7ubyWH4am74YoRa8pyS0SFLzjbZDGxY%22%3B; _gat=1; _ga=GA1.1.1793657689.1426807599; PHPSESSID=l3rgu7h906et282ckjqjb8pf76'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\:C:\\php\\;C:\\Program Files (x86)\\OpenSSH\\bin;C:\\Program Files (x86)\\MySQL\\MySQL Utilities 1.3.6\\;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '58129'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1426821908.43
+    'REQUEST_TIME' => 1426821908
+]

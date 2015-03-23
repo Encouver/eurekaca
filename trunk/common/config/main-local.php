@@ -4,8 +4,8 @@ return [
         'db' => [
             'class' => 'yii\db\Connection',
             'dsn' => 'pgsql:host=localhost;dbname=eureka',
-            'username' => 'eureka',
-            'password' => 'eureka',
+            'username' => 'postgres',
+            'password' => 'postgres',
             'charset' => 'utf8',
         ],
         'mailer' => [

@@ -91,6 +91,8 @@ AppAsset::register($this);
                 ['label' => 'Inicio', 'url' => ['/site/index']],
                 ['label' => 'Acerca', 'url' => ['/site/about']],
                 ['label' => 'Contacto', 'url' => ['/site/contact']],
+                ['label' => 'Nuevo Contacto', 'url' => ['/site/nuevocontacto']],
+
             ];
             if (Yii::$app->user->isGuest) {
                 $menuItems[] = ['label' => 'Registrate', 'url' => ['/site/signup']];
