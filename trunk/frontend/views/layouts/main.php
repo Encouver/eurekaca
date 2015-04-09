@@ -90,8 +90,8 @@ AppAsset::register($this);
             $menuItems = [
                 ['label' => 'Inicio', 'url' => ['/site/index']],
                 ['label' => 'Acerca', 'url' => ['/site/about']],
-                ['label' => 'Contacto', 'url' => ['/site/contact']],
-                ['label' => 'Nuevo Contacto', 'url' => ['/site/nuevocontacto']],
+                ['label' => 'Area de emprendedores', 'url' => ['/site/emprendedores']],
+                ['label' => 'Contacto', 'url' => ['/site/nuevocontacto']],
 
             ];
             if (Yii::$app->user->isGuest) {
@@ -119,13 +119,11 @@ AppAsset::register($this);
         <?= $content ?>
         </div>
     </div>
-
-    <footer class="footer">
-        <div class="container">
-        <p class="pull-left">&copy; My Company <?= date('Y') ?></p>
-        <p class="pull-right"><?= Yii::powered() ?></p>
-        </div>
-    </footer>
+    <div id="footerwrap">
+           
+                <a href="http://www.eureksolutions.com">Eureka Solutions C.A.</a>
+           
+    </div>
 
     <?php $this->endBody() ?>
 </body>

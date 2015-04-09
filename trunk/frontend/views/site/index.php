@@ -109,7 +109,7 @@ $this->title = 'My Yii Application';
                 <hr>
                 <br>
                 <br>
-                <div class="col-lg-6 centered">
+                <div class="col-lg-3 centered">
                     <img class="img img-circle" src="img/team/team-edgar.jpg" height="120px" width="120px" alt="">
                     <br>
                     <h4><b>Edgar Leal</b></h4>
@@ -119,7 +119,7 @@ $this->title = 'My Yii Application';
                     <p>Edgar experto en la relación empresa-cliente. Trabajando con los clientes de una amplia gama de industrias, entiende plenamente los objetivos del cliente cuando se trabaja en un proyecto ya sea grande o pequeño.</p>
                 </div><!-- col-lg-3 -->
                 
-                <div class="col-lg-6 centered">
+                <div class="col-lg-3 centered">
                     <img class="img img-circle" src="img/team/team-marcos.jpg" height="120px" width="120px" alt="">
                     <br>
                     <h4><b>Marcos Ramírez</b></h4>
@@ -127,6 +127,24 @@ $this->title = 'My Yii Application';
                     <!--<a href="#" class="icon icon-facebook"></a>
                     <a href="#" class="icon icon-flickr"></a>-->
                     <p>Marcos es un lider en la creación y dirección de proyectos, controvertido en el logro de sus ideales, para beneficio del equipo completo y de la audiencia. Él entiende la gran sinergia entre el diseño y la efectividad comercial que brilla en cada proyecto.</p>
+                </div><!-- col-lg-3 -->
+                  <div class="col-lg-3 centered">
+                    <img class="img img-circle" src="img/team/team-nahim.jpg" height="120px" width="120px" alt="">
+                    <br>
+                    <h4><b>Nahim D'Lima</b></h4>
+                    <a href="https://twitter.com/S0cram" class="icon icon-twitter"></a>
+                    <!--<a href="#" class="icon icon-facebook"></a>
+                    <a href="#" class="icon icon-flickr"></a>-->
+                    <p>Nahim es una lider en la creación y dirección de proyectos, controvertido en el logro de sus ideales, para beneficio del equipo completo y de la audiencia. Él entiende la gran sinergia entre el diseño y la efectividad comercial que brilla en cada proyecto.</p>
+                </div><!-- col-lg-3 -->
+                 <div class="col-lg-3 centered">
+                    <img class="img img-circle" src="img/team/team-raul.jpg" height="120px" width="120px" alt="">
+                    <br>
+                    <h4><b>Raul Romero</b></h4>
+                    <a href="https://twitter.com/S0cram" class="icon icon-twitter"></a>
+                    <!--<a href="#" class="icon icon-facebook"></a>
+                    <a href="#" class="icon icon-flickr"></a>-->
+                    <p>Nahim es una lider en la creación y dirección de proyectos, controvertido en el logro de sus ideales, para beneficio del equipo completo y de la audiencia. Él entiende la gran sinergia entre el diseño y la efectividad comercial que brilla en cada proyecto.</p>
                 </div><!-- col-lg-3 -->
                 <!--
                 <div class="col-lg-4 centered">
@@ -542,24 +560,7 @@ $this->title = 'My Yii Application';
         
         </div><!-- container -->
 
-        <div id="footerwrap">
-            <div class="container">
-                <a href="http://www.eureksolutions.com">Eureka Solutions C.A.</a>
-            </div>
-        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
+       
 
 
 

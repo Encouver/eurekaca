@@ -12,25 +12,34 @@ $this->params['breadcrumbs'][] = $this->title;
 ?>
 
 <div class="site-contact">
-    <h1><?= Html::encode($this->title) ?></h1>
-
-    <p>
-        If you have business inquiries or other questions, please fill out the following form to contact us. Thank you.
-    </p>
-
     <div class="row">
-        <div class="col-lg-5">
+        <div class="col-lg-6">
+           <h4>Nos encontramos ubicados en los Teques: </h4>
+            <p><span class="icon icon-home"></span> Los Teques 1021, Miranda <br/>
+                        <span class="icon icon-phone"></span> +58 0212-3216583<br/>
+                        <span class="icon icon-mobile"></span> +58 0414-3453988 <br/>
+                        <span class="icon icon-mobile"></span> +58 0414-3189549 <br/>
+                        <span class="icon icon-envelop"></span> <a href="#"> info@eureksolutions.com</a> <br/>
+                        <span class="icon icon-twitter"></span> <a href="https://twitter.com/eurekave"> @eurekave </a> <br/>
+                        <span class="icon icon-facebook"></span> <a href="https://www.facebook.com/people/Eureka-VE/100004718627172"> Eureka-VE </a> <br/>
+                    </p>
+           <div id="map-canvas"></div>
+
+        </div>
+        <div class="col-lg-6">
+            <h4>Mantente en contacto: </h4>
             <?php $form = ActiveForm::begin(['id' => 'contact-form']); ?>
                 <?= $form->field($model, 'nombre') ?>
                 <?= $form->field($model, 'correo') ?>
                 <?= $form->field($model, 'telefono') ?>
                 <?= $form->field($model, 'descripcion')->textArea(['rows' => 6]) ?>
               
-                <div class="form-group">
-                    <?= Html::submitButton('Submit', ['class' => 'btn btn-primary', 'name' => 'contact-button']) ?>
+                <div class="form-group centered">
+                    <?= Html::submitButton('Enviar', ['class' => 'btn btn-primary', 'name' => 'contact-button']) ?>
                 </div>
             <?php ActiveForm::end(); ?>
         </div>
+          
     </div>
     
 
@@ -69,9 +78,7 @@ $this->params['breadcrumbs'][] = $this->title;
         </head>
         <body>
         
-        <h4>Nos encontramos ubicados en los Teques: </h4>   
-        <div id="map-canvas"></div>
-
+        
     
         </body>
 </div>

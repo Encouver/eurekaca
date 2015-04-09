@@ -431,6 +431,9 @@ a:after {
 .divider6 {
 	background-image: url('../img/bg/divider6.jpg')
 }
+.divider7 {
+	background-image: url('../img/bg/divider7.jpg')
+}
 
 
 
@@ -617,6 +620,15 @@ a:after {
 	padding-top: 10px;
 	background: #f2f2f2;
 }
+/* ==========================================================================
+   Empleos
+   ========================================================================== */
+
+#postu{
+margin-bottom: 10px;
+}
+
+
 
 
 /* ==========================================================================

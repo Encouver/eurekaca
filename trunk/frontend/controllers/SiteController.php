@@ -2,17 +2,20 @@
 namespace frontend\controllers;
 
 use Yii;
+use yii\web\UploadedFile;
 use common\models\LoginForm;
 use app\models\PasswordResetRequestForm;
 use app\models\ResetPasswordForm;
 use app\models\SignupForm;
 use app\models\ContactForm;
 use app\models\Contactos;
+use app\models\Postulantes;
 use yii\base\InvalidParamException;
 use yii\web\BadRequestHttpException;
 use yii\web\Controller;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
+
 
 /**
  * Site controller
@@ -93,6 +96,36 @@ class SiteController extends Controller
 
         return $this->goHome();
     }
+    public function actionEmprendedores()
+    {
+        $model = new Postulantes();
+        if ($model->load(Yii::$app->request->post())) {
+            
+               $model->file= UploadedFile::getInstance($model,'file');
+              
+               
+             
+          $time= time();
+                $model->file->saveAs('adjunto/'.$time.'.'.$model->file->extension);
+                $model->file= 'adjunto/'.$time.'.'.$model->file->extension;
+           if ($model->sendEmail(Yii::$app->params['adminEmail'])) {
+                    
+                Yii::$app->session->setFlash('success', 'Usted se ha postulado con exito');
+            } else {
+                Yii::$app->session->setFlash('error', 'Ha ocurrido un error al postularse por favor intente mas tarde');
+            }
+          
+
+
+            return $this->refresh();
+
+
+        } else {
+            return $this->render('emprendedores', [
+                'model' => $model,
+            ]);
+        }
+    }
 
     public function actionContact()
     {
@@ -118,9 +151,9 @@ class SiteController extends Controller
              
            if ($model->sendEmail(Yii::$app->params['adminEmail'])) {
                     $model->save();
-                Yii::$app->session->setFlash('success', 'Thank you for contacting us. We will respond to you as soon as possible.');
+                Yii::$app->session->setFlash('success', 'Su mensaje fue enviado con exito');
             } else {
-                Yii::$app->session->setFlash('error', 'There was an error sending email.');
+                Yii::$app->session->setFlash('error', 'Ha ocurrido un error al enviar el mensaje por favor intente mas tarde');
             }
           
 

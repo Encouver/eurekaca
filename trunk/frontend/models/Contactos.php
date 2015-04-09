@@ -15,7 +15,7 @@ use Yii;
  */
 class Contactos extends \yii\db\ActiveRecord
 {
-    public $verifyCode;
+   
     /**
      * @inheritdoc
      */
@@ -32,10 +32,12 @@ class Contactos extends \yii\db\ActiveRecord
         return [
             [['nombre', 'telefono', 'correo', 'descripcion'], 'required'],
             [['nombre', 'telefono', 'correo', 'descripcion'], 'safe'],
-            [['descripcion'], 'string'],
-            [['nombre'], 'string', 'max' => 50],
-            [['telefono'], 'string', 'max' => 20],
-            [['correo'], 'email'],
+            ['nombre', 'match', 'pattern' => "/^.{3,50}$/", 'message' => 'Mínimo 3 y máximo 50 caracteres'],
+            ['nombre', 'match', 'pattern' => "/^[a-z]+[a-z\s]+[a-z]$/i", 'message' => 'Solo se aceptan letras'],
+            ['descripcion', 'match', 'pattern' => "/^.{20,}$/", 'message' => 'Mínimo 20 caracteres'],
+            ['telefono', 'match', 'pattern' => "/^.{11}$/", 'message' => 'Mínimo y máximo 11 caracteres'],
+            ['telefono', 'match', 'pattern' => "/^[0-9]+$/i", 'message' => 'Sólo se aceptan numeros'],
+            ['correo', 'email', 'message' => 'Formato no válido'],
      
 
         ];
@@ -52,7 +54,6 @@ class Contactos extends \yii\db\ActiveRecord
             'telefono' => 'Telefono',
             'correo' => 'Correo',
             'descripcion' => 'Descripcion',
-            'verifyCode' => 'Verification Code',
 
         ];
     }
@@ -65,11 +66,15 @@ class Contactos extends \yii\db\ActiveRecord
      */
     public function sendEmail($email)
     {
+        $body = "<h3>".$this->nombre."</h3>";
+        $body .= "<p>".$this->descripcion."</p>";
+        $body .= "<p><b>Telefono: </b>".$this->telefono."</p>";
+         $body .= "<p><b>Correo: </b>".$this->correo."</p>";
         return Yii::$app->mailer->compose()
-            ->setTo($email)
-            ->setFrom($this->correo)
-            ->setSubject($this->nombre)
-            ->setTextBody($this->descripcion)
+            ->setTo($this->correo)
+            ->setFrom($email)
+            ->setSubject("Contacto ".$this->nombre )
+            ->setHtmlBody($body)
             ->send();
     }
 }
