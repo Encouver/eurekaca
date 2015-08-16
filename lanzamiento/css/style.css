@@ -20,3 +20,31 @@
 	margin-top: 10px;
 	
 }
+
+.img-wrap img {
+    display: block;
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.img-wrap img.top-lg {
+    margin-top: 30px;
+}
+
+.img-wrap {
+    text-align: center;
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 35px;
+    margin-left: 35px;
+    
+}
+
+
+.logos
+{
+	/*align-items: flex-start;
+	display: flex;
+    flex: 1 0 auto;
+    flex-flow: row wrap;*/
+}
