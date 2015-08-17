@@ -23,8 +23,9 @@
 
 .img-wrap img {
     display: block;
-    max-height: 100px;
-    max-width: 100px;
+    max-height: 80px;
+    max-width: 80px;
+
 }
 
 .img-wrap img.top-lg {
@@ -37,7 +38,7 @@
     margin-bottom: 20px;
     margin-right: 35px;
     margin-left: 35px;
-    
+
 }
 
 
@@ -47,4 +48,14 @@
 	display: flex;
     flex: 1 0 auto;
     flex-flow: row wrap;*/
+}
+
+/*.tabla.tr
+{
+	vertical-align: text-top !important;
+}*/
+
+.tabla td, th
+{
+	padding: 0px 0px;
 }
