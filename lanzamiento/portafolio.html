@@ -330,10 +330,10 @@
             </tbody>
           </table>
 
-          <form class="col s12" action="">
+          <form class="col s12" action="" id="newle">
             <div class="row">
               <div class="input-field col s12">
-                <input id="newsletter" type="email" class="validate">
+                <input id="newsletter" type="email" class="validate" required>
                 <label for="newsletter" data-error="wrong" data-success="right">Newsletter</label>
               </div>
               <div class="right-align">
@@ -360,6 +360,13 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+   <script type="text/javascript">
+    $().ready(function() {
+      
+      $("#newle").validate();
+
+    });
+  </script>
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
