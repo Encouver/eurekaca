@@ -255,7 +255,7 @@
                     <img src="image/clientes/logo_cencoex.png" class="responsive-img" width="170px">
                   </td>
                   <td style="text-align: right;">
-                    <h5 class="">Cencoex</h5>
+                    <h5 class="">Interoperabilidad-Cencoex</h5>
                   </td>
                 </tr>
                 <tr valign="top">
