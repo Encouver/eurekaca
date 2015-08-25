@@ -1,5 +1,52 @@
 
 <?php include('header.php'); ?>
+<!-- 
+    <style>
+        body { margin: 0; }
+        canvas { width: 100%; height: 100% }
+    </style>
+
+    <script src="js/three.min.js"></script>
+    <script>
+        // Our Javascript will go here.
+        var scene = new THREE.Scene();
+        var camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
+
+        var renderer = new THREE.WebGLRenderer();
+        renderer.setSize( window.innerWidth, window.innerHeight );
+        document.body.appendChild( renderer.domElement );
+
+
+        var geometry = new THREE.BoxGeometry( 1, 1, 1 );
+        var material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
+        var cube = new THREE.Mesh( geometry, material );
+        scene.add( cube );
+
+        camera.position.z = 5;
+
+        function render() {
+          requestAnimationFrame( render );
+
+         /* // Método 1
+          cube.position = start_position;
+          cube.quaternion = quaternion;
+          cube.updateMatriz();
+
+          // Método 2
+          cube.matrix.setRotationFromQuaternion(quaternion);
+          cube.matrix.setPosition(start_position);
+          cube.matrixAutoUpdate = true;*/
+          
+          cube.rotation.x += 0.1;
+          cube.rotation.y += 0.1;
+
+          renderer.render( scene, camera );
+
+        }
+        render();
+    </script>
+
+   -->
 
     <div class="navbar-fixed">
       <nav class="black" role="navigation">
@@ -13,6 +60,23 @@
         </div>
       </nav>
     </div>
+
+     <?php //include('banner.php'); ?>  
+
+<br>
+    
+<div class="container-birthday">
+  <div class="balloon">
+    <div><span>☺</span></div>
+    <div><span>B</span></div>
+    <div><span>D</span></div>
+    <div><span>A</span></div>
+    <div><span>Y</span></div>
+    <div><span>!</span></div>
+  </div>
+  <h1>Estamos de cumpleaños / We are in our Birthday @ Eureka Solutions</h1>
+</div>
+
     <div class="section no-pad-bot" id="index-banner">
       <div class="container">
         <br>

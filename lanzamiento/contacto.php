@@ -6,7 +6,7 @@
 		// Validar y almacenar la información en la base de datos
 		//alert('Gracias por dejar el mensaje '.$_POST['contacto']['nombre'].' '.$_POST['contacto']['apellido']);
 		
-		$db = pg_connect('host=localhost dbname=eureka user=eureka password=eureka'); 
+		$db = pg_connect('host=localhost dbname=eureksol_eureka user=eureka password=eureksol_eureka'); 
 
         $firstname = pg_escape_string($_POST['contacto']['nombre']); 
         $surname = pg_escape_string($_POST['contacto']['apellido']); 
