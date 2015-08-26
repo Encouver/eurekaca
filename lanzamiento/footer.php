@@ -1,7 +1,3 @@
-
-
-
-
         <footer class="page-footer red">
         <div class="container">
           <div class="row">
@@ -49,11 +45,11 @@
               <form class="col s12" action="" id="newle">
                 <div class="row">
                   <div class="input-field col s12">
-                    <input id="newsletter" type="email" class="validate" required>
-                    <label for="newsletter" data-error="wrong" data-success="right">Newsletter</label>
+                    <input id="newletter" type="email" class="validate" required>
+                    <label for="newletter" data-error="wrong" data-success="right">Newsletter</label>
                   </div>
                   <div class="right-align">
-                    <button class="btn waves-effect waves-light" type="submit" name="action">
+                    <button class="btn waves-effect waves-light" type="submit" name="action" id="action">
                       <i class="material-icons">send</i>
                     </button>
                   </div>
@@ -75,6 +71,7 @@
       <script src="js/jquery-2.1.1.min.js"></script>
       <script src="js/materialize.js"></script>
       <script src="js/init.js"></script>
+      <script src="js/materialize.js"></script>
       <script type="text/javascript">
         $().ready(function() {
           

@@ -74,7 +74,7 @@
     <div><span>Y</span></div>
     <div><span>!</span></div>
   </div>
-  <h1>Estamos de cumpleaños / We are in our Birthday @ Eureka Solutions</h1>
+  <h1>Estamos de cumpleaños / We are in our Birthday <br/>@Eureka Solutions</h1>
 </div>
 
     <div class="section no-pad-bot" id="index-banner">
@@ -253,8 +253,8 @@
         </div>
         <br>
         <h5 class="center-align header col s12 blue-text">O envianos un mensaje</h5>
-        <div class="row">
-          <form class="col s12" action="contacto.php" id="contacto" method="post">
+        <div class="row" id="area_contacto">
+          <form class="col s12" action="" id="contacto" method="post">
             <div class="row">
               <div class="input-field col s6">
                 <input id="nombre" type="text" length="10" class="validate" name="contacto[nombre]" required>
@@ -282,7 +282,7 @@
               </div>
             </div>
             <div class="right-align">
-              <button class="btn waves-effect waves-light" type="submit">
+              <button class="btn waves-effect waves-light" type="submit" id="submit">
                 <i class="material-icons">send</i>
               </button>
             </div>

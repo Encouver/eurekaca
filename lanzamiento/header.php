@@ -22,8 +22,6 @@
 
     <!-- Birthday script -->
      <link href='http://fonts.googleapis.com/css?family=Wendy+One' rel='stylesheet' type='text/css'>
-
-
   </head>
   
   <body>
