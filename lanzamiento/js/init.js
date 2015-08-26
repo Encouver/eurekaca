@@ -28,7 +28,7 @@
 				},
 				complete : function() { 
 					//$('#resultado_newle').html(json);
-					alert(json);			 
+					//alert(json);			 
 				}
 			});
 

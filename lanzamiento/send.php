@@ -17,7 +17,7 @@
 			
 				$query = "INSERT INTO newsletter(correo) VALUES('" . $email . "')"; 
 
-		        $result = pg_query($query); 
+		        $result = @pg_query($query); 
 				
 				if (!$result) { 
 		            $errormessage = pg_last_error(); 
