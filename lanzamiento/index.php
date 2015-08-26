@@ -288,6 +288,11 @@
             </div>
           </form>
         </div>
+        <div class="row">
+            <div class="col s12" id="area_mensaje" style="display:none">
+                <h4 class="header center red-text">Listo, tu mensaje ya fue recibido, te contactaremos</h4>
+            </div>
+        </div>
         <h5 class="center-align header col s12 blue-text">Tambien puedes hacerlo por los correos:</h5>
         <br>
         <div class="row" style="text-align:center">

@@ -62,7 +62,10 @@
 				{
 				},
 				complete : function() { 
-					$('#area_contacto').html('<h4 class="header center red-text">Listo, tu mensaje ya fue recibido, te contactaremos</h4>');
+					
+					$('#area_contacto').hide(1000);
+
+					$('#area_mensaje').show("slow");
 
 					//alert(json2);
 				}
