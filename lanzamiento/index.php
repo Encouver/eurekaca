@@ -52,11 +52,20 @@
       <nav class="black" role="navigation">
         <div class="nav-wrapper container">
           <a id="logo-container" href="#!" class="brand-logo left"></a>
+          
+          <ul id="slide-out" class="side-nav">
+            <li>
+              <a href="portafolio.php">Trayectoria</a>
+            </li>
+          </ul>
+
           <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li>
               <a href="portafolio.php">Trayectoria</a>
             </li>
           </ul>
+          
+          <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
         </div>
       </nav>
     </div>
@@ -296,14 +305,14 @@
         <h5 class="center-align header col s12 blue-text">Tambien puedes hacerlo por los correos:</h5>
         <br>
         <div class="row" style="text-align:center">
-          <div class="col s4">
+          <div class="col s12 m4">
             <i class="medium material-icons">email</i>
             <br/><a href="mailto:eureka@eureksolutions.com?Subject=" target="_top">eureka@eureksolutions.com</a>
             </div>
-          <div class="col s4">
+          <div class="col s12 m4">
             <i class="medium material-icons">email</i>
             <br/><a href="mailto:info@eureksolutions.com?Subject=" target="_top">info@eureksolutions.com</a></div>
-          <div class="col s4">
+          <div class="col s12 m4">
             <i class="medium material-icons">email</i>
             <br/><a href="mailto:soporte@eureksolutions.com?Subject=" target="_top">soporte@eureksolutions.com</a></div>
         </div>
@@ -311,7 +320,7 @@
 
 
       <!-- CALENDARIO GOOGLE -->
-      <div class="container">
+      <div class="container calendario_google">
         <div class="row center">
           <div class="col s12">
             <br>

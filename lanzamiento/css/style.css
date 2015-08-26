@@ -63,3 +63,12 @@
 .card-additional {
     height: 25em;
 }
+
+
+@media only screen and (max-width: 760px) {
+  .container-birthday { display: none; }
+}
+
+@media only screen and (max-width: 760px) {
+  .calendario_google { display: none; }
+}
