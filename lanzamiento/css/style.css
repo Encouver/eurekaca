@@ -21,39 +21,30 @@
 	
 }
 
-.img-wrap img {
-    display: block;
-    max-height: 80px;
-    max-width: 80px;
 
+
+@media only screen and (min-width: 992px){
+    .img-wrap {
+        text-align: center;
+        float: left;
+        margin-bottom: 20px;
+        margin-right: 35px;
+        margin-left: 35px;
+
+    }
+
+    .img-wrap img {
+        display: block;
+        max-height: 80px;
+        max-width: 80px;
+
+    }
+
+    .img-wrap img.top-lg {
+        margin-top: 30px;
+    }
 }
 
-.img-wrap img.top-lg {
-    margin-top: 30px;
-}
-
-.img-wrap {
-    text-align: center;
-    float: left;
-    margin-bottom: 20px;
-    margin-right: 35px;
-    margin-left: 35px;
-
-}
-
-
-.logos
-{
-	/*align-items: flex-start;
-	display: flex;
-    flex: 1 0 auto;
-    flex-flow: row wrap;*/
-}
-
-/*.tabla.tr
-{
-	vertical-align: text-top !important;
-}*/
 
 .tabla td, th
 {
@@ -67,8 +58,33 @@
 
 @media only screen and (max-width: 760px) {
   .container-birthday { display: none; }
-}
-
-@media only screen and (max-width: 760px) {
   .calendario_google { display: none; }
+
+
+
+    .img-wrap {
+        text-align: center;
+        float: left;
+        margin-bottom: 5px;
+        margin-right: 10px;
+        margin-left: 10px;
+
+    }
+
+
+    .img-wrap img {
+        display: block;
+        max-height: 40px;
+        max-width: 40px;
+
+    }
+
+    .img-wrap h6{
+         display: none;
+    }
+
+    .card-additional {
+        height: 33em;
+        /*padding-bottom: 40px;*/
+    }
 }

@@ -64,7 +64,7 @@
               <a href="portafolio.php">Trayectoria</a>
             </li>
           </ul>
-          
+
           <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
         </div>
       </nav>
@@ -95,8 +95,8 @@
             <div class="col s12 m12">
               <div class="card">
               <div class="row">
-              <div class="card-content col s2"></div>
-                <div class="card-content col s8">
+              <div class="card-content col s0 m2"></div>
+                <div class="card-content col s12 m8">
                   <div class="img-wrap" style="padding-top: 50px;">
                     <img class="top-lg responsive-img no-flex" src="image/express-logo.png">
                     <h6>ExpressJS</h6>
@@ -169,7 +169,7 @@
                   </div>
                   <!-- <div style="clear:both"></div> -->
                 </div>
-                <div class="card-content  col s2"></div>
+                <div class="card-content  col s0 m2"></div>
               </div>
 	              <div class="row">
 	              	<div class="card-action">
