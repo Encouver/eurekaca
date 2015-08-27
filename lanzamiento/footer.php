@@ -1,28 +1,16 @@
         <footer class="page-footer red">
         <div class="container">
           <div class="row">
+        
             <div class="col l6 s12">
+                
               <h5 class="white-text">NOSOTROS</h5>
               <p class="grey-text text-lighten-4">Eureka es mas que una startup, es más que un equipo, somos una familia. Nos dedicamos a la programación web y móvil, contamos
                 con una ambición grande, la de desarrollar productos que beneficien a la mayor cantidad de personas, que les ayude en sus
                 tareas básicas.</p>
-              <table>
-                <thead>
-                  <tr>
-                    <th data-field="desarrollo">¿Deseas trabajar en Eureka?</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Envía un correo con tu resumen y portafolio a:
-                      <br>
-                      <i class="tiny material-icons">email</i><br/><a href="mailto:rrhh@eureksolutions.com?Subject=" target="_top">rrhh@eureksolutions.com</a></td>
-                  </tr>
-                </tbody>
-              </table>
             </div>
             <div class="col l6 s12">
-              <h5 class="white-text">HORARIOS PARA</h5>
+                              <h5 class="white-text">HORARIOS PARA</h5>
               <table>
                 <thead>
                   <tr>
@@ -42,7 +30,22 @@
                   </tr>
                 </tbody>
               </table>
-              <form class="col s12" action="" id="newle">
+            </div>
+
+            <div class="col l6 s12">
+                
+                ¿Deseas trabajar en Eureka?
+                <hr>
+            <br>
+    
+            
+                    Envía un correo con tu resumen y portafolio a:
+                      <br>
+                      <i class="tiny material-icons">email</i><br/><a href="mailto:rrhh@eureksolutions.com?Subject=" target="_top">rrhh@eureksolutions.com</a>
+            </div>
+
+            <div class="col l6 s12">
+                              <form class="col s12" action="" id="newle">
                 <div class="row">
                   <div class="input-field col s12">
                     <input id="newletter" type="email" class="validate" required>
@@ -55,7 +58,18 @@
                   </div>
                 </div>
               </form>
+
             </div>
+            
+            <div class="col l12 s12">
+                                 <ul class="collapsible popout" data-collapsible="accordion">
+                           <li>
+                              <div class="collapsible-header center "><i class="material-icons">payment</i>Métodos de pago</div>
+                              <div class="collapsible-body"><p>Actualmente contamos con los Bancos Mercantil y Banesco en Venezuela, para pagos en Bs. Para pagos en otras divisas, contactanos. También aceptamos BitCoin</p></div>
+                            </li>
+                         </ul>
+            </div>
+            
           </div>
         </div>
         <div class="footer-copyright">
