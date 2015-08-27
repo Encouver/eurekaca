@@ -83,7 +83,7 @@
     <div><span>Y</span></div>
     <div><span>!</span></div>
   </div>
-  <h1>Estamos de cumpleaños / We are in our Birthday <br/>@Eureka Solutions</h1>
+  <h1 class="birthday">1er Aniversario <br> Estamos de cumpleaños / We are in our Birthday <br/>@ Eureka Solutions</h1>
 </div>
 
     <div class="section no-pad-bot" id="index-banner">

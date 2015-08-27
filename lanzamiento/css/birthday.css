@@ -6,7 +6,7 @@ body .container-birthday {
 } 
 .container-birthday {
   width: 800px;
-  height: 420px;
+  height: 470px;
   padding: 10px;
   margin: 0 auto;
   background: whitesmoke;
@@ -266,9 +266,9 @@ body .container-birthday {
     transform: translate(-15px, 10px) rotate(10deg);
   }
 }
-h1 {
+h1  {
   position: relative;
-  top: 200px;
+  top: 150px;
   text-align: center;
   color: rgba(242, 112, 45, 0.9); /* rgba(182, 15, 97, 0.9); */
   font-size: 3.5em;
