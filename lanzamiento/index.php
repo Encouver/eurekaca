@@ -48,10 +48,11 @@
 
    -->
 
-    <div class="navbar-fixed">
+    <div id="inicio" class="navbar-fixed" >
       <nav class="black" role="navigation">
         <div class="nav-wrapper container">
-          <a id="logo-container" href="#!" class="brand-logo left"></a>
+        <!-- Actualizar la URL acorde una vez en el servidor -->
+          <a id="logo-container" href="#" class="brand-logo left"></a>
           
           <ul id="slide-out" class="side-nav">
             <li>
@@ -70,11 +71,29 @@
       </nav>
     </div>
 
-     <?php //include('banner.php'); ?>  
+  
+</div>
+     <?php 
+      // Include and instantiate the class.
+      require_once 'Mobile_Detect.php';
+      $detect = new Mobile_Detect;
+       
+      // Any mobile device (phones or tablets).
+      if ( !$detect->isMobile() ) {
+       //include('banner.php'); 
+      }
+       
+     ?>  
 
 <br>
-    
-<div class="container-birthday">
+
+
+  <div class="section">
+     <span id="birthday"></span>
+<!--<br><br><br><br>
+<a href="#birthday">Aniversario</a> -->
+<div class="container-birthday" >
+
   <div class="balloon">
     <div><span>☺</span></div>
     <div><span>B</span></div>
@@ -85,11 +104,25 @@
   </div>
   <h1 class="birthday">1er Aniversario <br> Estamos de cumpleaños / We are in our Birthday <br/>@ Eureka Solutions</h1>
 </div>
+<br>
+</div>
+
+<!-- 
+<div class="scroll-to-top">
+<a href="#inicio">Ir al inicio</a>
+</div> -->
+
+<div class="divider"></div>
+  <div class="section orange lighten-5 ">
 
     <div class="section no-pad-bot" id="index-banner">
-      <div class="container">
+      <div  class="container">
         <br>
-        <h2 class="header center red-text">Nuestras habilidades</h2>
+
+        <!-- Anchor -->
+        <span id="habilidades"></span><br> <br> <br>
+
+        <a href="#habilidades" > <h2 class="header center blue-text">Nuestras habilidades</h2></a>
         <div class="row center">
           <div class="row logos">
             <div class="col s12 m12">
@@ -181,11 +214,18 @@
           </div>
         </div>
       </div>
-       
+  
+  </div>
+  </div>
 
-      <div class="container">
+<div class="divider"></div>
+  <div class="section">
+
+        <!-- Anchor -->
+        <span id="contactanos"></span><br> <br> <br>
+      <div  class="container">
         <div class="row center">
-          <h5 class="header col s12 blue-text">Si quieres contactarnos, por ahora tenemos estos medios</h5>
+          <h5 class="header col s12 blue-text"><a href="#contactanos"> Si quieres contactarnos, por ahora tenemos estos medios</a> </h5>
         </div>
         <br>
         <div class="section">
@@ -261,7 +301,11 @@
           </div>
         </div>
         <br>
-        <h5 class="center-align header col s12 blue-text">O envianos un mensaje</h5>
+
+        <!-- Anchor -->
+        <span id="mensajes"></span><br> <br> <br>
+
+        <h5 class="center-align header col s12 blue-text"><a href="#mensajes"> O envianos un mensaje</a></h5>
         <div class="row" id="area_contacto">
           <form class="col s12" action="" id="contacto" method="post">
             <div class="row">
@@ -302,7 +346,11 @@
                 <h4 class="header center red-text">Listo, tu mensaje ya fue recibido, te contactaremos</h4>
             </div>
         </div>
-        <h5 class="center-align header col s12 blue-text">Tambien puedes hacerlo por los correos:</h5>
+        
+        <!-- Anchor -->
+        <span id="correos"></span><br> <br> <br>
+
+        <h5 class="center-align header col s12 blue-text"><a href="#correos"> Tambien puedes hacerlo por los correos: </a></h5>
         <br>
         <div class="row" style="text-align:center">
           <div class="col s12 m4">
@@ -318,22 +366,27 @@
         </div>
       </div>
 
+</div>
+
+<div class="divider"></div>
+  <div class="section">
 
       <!-- CALENDARIO GOOGLE -->
-      <div class="container calendario_google">
+      <div id="eventos" class="container calendario_google">
         <div class="row center">
           <div class="col s12">
-            <br>
+            <br><br>
             <!-- <iframe src="https://www.google.com/calendar/embed?title=Horario%20de%20Atenci%C3%B3n&amp;height=300&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=uvn97gm4dsegloaf3n5r6omuic%40group.calendar.google.com&amp;color=%23875509&amp;ctz=America%2FCaracas"
             style=" border-width:0 " width="400" height="300" frameborder="0" scrolling="no" align="center"></iframe> -->
             <!--<iframe src="https://www.google.com/calendar/embed?title=Eventos%20Eureka&amp;showTitle=0&amp;showPrint=0&amp;height=300&amp;wkst=1&amp;hl=es_419&amp;bgcolor=%23ff6666&amp;src=uvn97gm4dsegloaf3n5r6omuic%40group.calendar.google.com&amp;color=%23875509&amp;ctz=America%2FCaracas" style=" border-width:0 " width="400" height="300" frameborder="0" scrolling="no">-->
-            <h3 class="header col s12 blue-text text-darken-1"> Eventos </h3>
+            <h3 class="header col s12 blue-text text-darken-1"><a href="#eventos"> Eventos </a> </h3>
             <iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;height=300&amp;wkst=2&amp;hl=es&amp;bgcolor=%23ff6666&amp;src=hv3klldktob9t7rtupbt1jj8b0%40group.calendar.google.com&amp;ctz=America%2FCaracas"
             style=" border-width:0 " width="800" height="600" frameborder="0" scrolling="no"></iframe>
             <br>
           </div>
         </div>
       </div>
-      
+
+  </div>    
 
       <?php include('footer.php'); ?>

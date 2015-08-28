@@ -24,12 +24,12 @@
 		(fonts from <a href="http://typeface.neocracy.org/">typeface.js</a> and <a href="http://en.wikipedia.org/wiki/Droid_%28font%29">Droid</a>)
 		<br/>built-in shape triangulation has been replaced with <a href="https://github.com/jahting/pnltri.js">PnlTri.js</a> by <a href="https://github.com/jahting" target="_blank">j ahting</a>
 		<br/>type to enter new text, drag to spin the text
-		<br/> --><span class="button" id="color">change color</span>,
+		<br/> <span class="button" id="color">change color</span>,
 			<span class="button" id="font">change font</span>,
 			<span class="button" id="weight">change weight</span>,
 			<span class="button" id="bevel">change bevel</span>,
 			<span class="button" id="postprocessing">change postprocessing</span>,
-			<a id="permalink" href="#">permalink</a>
+			<a id="permalink" href="#">permalink</a> -->
 		</div>
 
 		<div id="canvas" style="width: 100%; height: 50%;"></div>
@@ -93,11 +93,13 @@
 			var composer;
 			var effectFXAA;
 
+			var colorBackground = 0xFFFFFF;
+
 			var group, textMesh1, textMesh2, textGeo, material;
 
 			var firstLetter = true;
 
-			var text = "Eureka Solutions C.A.",
+			var text = "Eureka Solutions",
 
 				height = 20,
 				size = 50,
@@ -186,7 +188,7 @@
 				// SCENE
 
 				scene = new THREE.Scene();
-				scene.fog = new THREE.Fog( 0x000000, 250, 1400 );
+				scene.fog = new THREE.Fog( colorBackground, 250, 1400 );
 
 				// LIGHTS
 
@@ -232,7 +234,7 @@
 
 					pointLight.color.setHSL( /*Math.random()*/0.05, 1, 0.5 );
 					hex = decimalToHex( pointLight.color.getHex() );
-console.log(hex);
+//console.log('Hex: '+hex);
 				}
 
 				material = new THREE.MeshFaceMaterial( [
@@ -260,7 +262,7 @@ console.log(hex);
 				renderer = new THREE.WebGLRenderer( { antialias: true } );
 				renderer.setClearColor( scene.fog.color );
 				renderer.setPixelRatio( window.devicePixelRatio );
-				renderer.setSize( window.innerWidth, window.innerHeight / 2 );
+				renderer.setSize( window.innerWidth, window.innerHeight / 2);
 				container.appendChild( renderer.domElement );
 
 				// STATS
@@ -277,11 +279,11 @@ console.log(hex);
 				document.addEventListener( 'touchmove', onDocumentTouchMove, false );
 				document.addEventListener( 'keypress', onDocumentKeyPress, false );
 				document.addEventListener( 'keydown', onDocumentKeyDown, false );
-
-				document.getElementById( "color" ).addEventListener( 'click', function() {
 /*
+				document.getElementById( "color" ).addEventListener( 'click', function() {
+
 					pointLight.color.setHSL( Math.random(), 1, 0.5 );
-					hex = decimalToHex( pointLight.color.getHex() );*/
+					hex = decimalToHex( pointLight.color.getHex() );
 
 					updatePermalink();
 
@@ -344,7 +346,7 @@ console.log(hex);
 					postprocessing.enabled = !postprocessing.enabled;
 					updatePermalink();
 
-				}, false );
+				}, false );*/
 
 
 				// POSTPROCESSING
@@ -385,7 +387,7 @@ console.log(hex);
 				camera.aspect = window.innerWidth / window.innerHeight;
 				camera.updateProjectionMatrix();
 
-				renderer.setSize( window.innerWidth, window.innerHeight );
+				renderer.setSize( window.innerWidth, window.innerHeight / 2 );
 
 				composer.reset();
 
@@ -568,7 +570,7 @@ console.log(hex);
 
 			function onDocumentMouseDown( event ) {
 
-				event.preventDefault();
+				//event.preventDefault();
 
 				document.addEventListener( 'mousemove', onDocumentMouseMove, false );
 				document.addEventListener( 'mouseup', onDocumentMouseUp, false );

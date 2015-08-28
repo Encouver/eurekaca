@@ -35,7 +35,7 @@
             <div class="col l6 s12">
                 
                 ¿Deseas trabajar en Eureka?
-                <hr>
+                <div class="divider"></div>
             <br>
     
             
@@ -60,15 +60,15 @@
               </form>
 
             </div>
-            
+
             <div class="col l12 s12">
-                                 <ul class="collapsible popout" data-collapsible="accordion">
-                           <li>
-                              <div class="collapsible-header center "><i class="material-icons">payment</i>Métodos de pago</div>
-                              <div class="collapsible-body"><p>Actualmente contamos con los Bancos Mercantil y Banesco en Venezuela, para pagos en Bs. Para pagos en otras divisas, contactanos. También aceptamos BitCoin</p></div>
-                            </li>
-                         </ul>
-            </div>
+                <ul class="collapsible popout" data-collapsible="accordion">
+                 <li>
+                  <div class="collapsible-header center "><i class="material-icons">payment</i>Medios de pago</div>
+                  <div class="collapsible-body"><p>Actualmente contamos con los Bancos <span class="blue-text">Mercantil</span> y <span class="green-text">Banesco</span> en Venezuela, para pagos en Bs. Para pagos en <span class="white-text " > otras divisas </span>, contactanos. También aceptamos <span class="orange-text"> BitCoin </span>.</p></div>
+              </li>
+          </ul>
+      </div>
             
           </div>
         </div>
