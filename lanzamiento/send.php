@@ -47,15 +47,38 @@
 			
 			if (!$result) { 
 	            $errormessage = pg_last_error(); 
+
+	            echo json_encode(['code'=>0,'mensaje'=>'Hubo un error procesando tu mensaje, por favor intentalo de nuevo.']);
 	            return "Error with query: " . $errormessage; 
 	             
 	        } 
 
-			return  "Listo, tu mensaje ya fue recibido, te contactaremos"; 
+	/*		@mail("eureka@eureksolutions.com",
+			        "Mensaje de: ".$firstname." ".$surname,
+			        "Datos de contacto: ".$tlf."<br><br>".$mensaje,
+			        "From: ". $emailaddress . "\r\n" . "Content-Type: text/html; charset=utf-8"/*,
+			        "-fsender@example.com");*/
+
+			// Guardar en archivo.txt
+			doLog("Datos de la persona: ".$firstname." ".$surname." Teléfono: ".$tlf." Correo: ".$emailaddress." Mensaje: ".$mensaje."", "logs/mensajes.txt");
+			// Guardar en archivo CSV
+			doLog("".$firstname.";".$surname.";".$tlf.";".$emailaddress.";".$mensaje."", "logs/mensajes.csv");
+
+
+			echo json_encode(["code"=>1,"mensaje"=>"Listo, tu mensaje ya fue recibido, te contactaremos."]);
+			//return  "Listo, tu mensaje ya fue recibido, te contactaremos."; 
 
 		}
 
 
+		function doLog($text, $filename)
+		{
+		  // Abrir archivo log
+		  $filename = $filename;
+		  $fh = fopen($filename, "a") or die("No se pudo abrir el archivo de mensajes..");
+		  fwrite($fh, date("d-m-Y, H:i")." - $text\n") or die("No se pudo guardar el mensaje en el log!");
+		  fclose($fh);
+		}
 
 	if(@$_POST)
 	{

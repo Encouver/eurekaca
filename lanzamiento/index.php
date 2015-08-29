@@ -320,7 +320,7 @@
             </div>
             <div class="row">
               <div class="input-field col s6">
-                <input id="tlf" type="number" length="11" class="validate" name="contacto[tlf]" required>
+                <input id="tlf" type="tel" length="11" class="validate" name="contacto[tlf]" required autocomplete="on">
                 <label for="tlf">Telefono</label>
               </div>
               <div class="input-field col s6">
@@ -330,7 +330,7 @@
             </div>
             <div class="row">
               <div class="input-field col s12">
-                <textarea id="mensaje" class="materialize-textarea" length="120" name="contacto[mensaje]" required></textarea>
+                <textarea id="mensaje" type="text" class="materialize-textarea" length="120" name="contacto[mensaje]" required ></textarea>
                 <label for="textarea1">Mensaje</label>
               </div>
             </div>
@@ -341,9 +341,10 @@
             </div>
           </form>
         </div>
+
         <div class="row">
             <div class="col s12" id="area_mensaje" style="display:none">
-                <h4 class="header center red-text">Listo, tu mensaje ya fue recibido, te contactaremos</h4>
+                <h4 class="header center red-text">Listo, tu mensaje ya fue recibido, te contactaremos.</h4>
             </div>
         </div>
         

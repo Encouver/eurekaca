@@ -46,28 +46,36 @@
 				
 				type: 'POST',
 				url: 'send.php',
-				dataType: "html",
+				dataType: "json",
 				data: {
 					scenario : 2,
 					datos: frm.serialize()
-
 				},
 				beforeSend: function () {
 					//$('#otro').text("cargando");
 			    },
-				success : function(data2){
-					json2 = data2
+				success : function(data){
+					json = data
+					//console.log(data.code);
+					if(data.code == 1){
+						$('#area_contacto').hide(1000);
+
+						$('#area_mensaje').show("slow");
+					}else{
+						alert(data.mensaje);
+					}
+
+					//console.log(data);
+					//alert(data);
 				},
 				error : function(XMLHttpRequest, textStatus, errorThrown) 
 				{
+					alert("Hubo un problema con el servidor, por favor intentalo de nuevo más tarde: "+textStatus+"  "+errorThrown+"  ");
+					console.log(XMLHttpRequest);
 				},
-				complete : function() { 
+				complete : function(data) { 
 					
-					$('#area_contacto').hide(1000);
-
-					$('#area_mensaje').show("slow");
-
-					//alert(json2);
+					
 				}
 			});
 
