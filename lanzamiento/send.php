@@ -1,9 +1,11 @@
-<?php include_once('conex.php');
+<?php //include_once('conex.php');
 	header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
 	header("Cache-Control: post-check=0, pre-check=0", false);
 	header("Pragma: no-cache");
 
-	$link = Conexion::singleton();
+	//use /eureka;
+
+	//$link = Conexion::singleton();
 
 	
 		
@@ -11,16 +13,18 @@
 
 		function correo($email)
 		{
-			$email = pg_escape_string($email); 
+			$email = ($email); 
 
-			
+			$link = Conexion::singleton();
 			
 				$query = "INSERT INTO newsletter(correo) VALUES('" . $email . "')"; 
 
-		        $result = @pg_query($query); 
+		        //$result = @pg_query($query); 
+		        $result = $link->prepare($query); 
+	        	$result = $link->execute();
 				
 				if (!$result) { 
-		            $errormessage = pg_last_error(); 
+		            $errormessage = $link->errorInfo(); 
 		            return "Error with query: " . $errormessage;     
 		        }
 				
@@ -35,23 +39,37 @@
 
 		function mensaje($datos)
 		{
-			$firstname = pg_escape_string($datos['contacto']['nombre']); 
-	        $surname = pg_escape_string($datos['contacto']['apellido']); 
-			$tlf = pg_escape_string($datos['contacto']['tlf']);
-	        $emailaddress = pg_escape_string($datos['contacto']['correo']);
-			$mensaje = pg_escape_string($datos['contacto']['mensaje']);  
+
+			//$link = Conexion::singleton();
+
+/*			 $usuario="eureka";
+			  $clave="eureka";
+			  $db_host="localhost";
+			  $bd_nombre="eureka";
+			  $port = 5432;
+
+		 	$link = new PDO('pgsql: host='.$db_host.'; dbname='.$bd_nombre.'; port='.$port, $usuario, $clave);*/
+
+			//var_dump($link);
+
+			/*$firstname = ($datos['contacto']['nombre']); 
+	        $surname = ($datos['contacto']['apellido']); 
+			$tlf = ($datos['contacto']['tlf']);
+	        $emailaddress = ($datos['contacto']['correo']);
+			$mensaje = ($datos['contacto']['mensaje']);  
 			
 			
 			$query = "INSERT INTO mensajes(nombre, apellido, telefono, correo, mensaje) VALUES('" . $firstname . "', '" . $surname . "', '" . $tlf . "', '" . $emailaddress . "', '" . $mensaje . "')"; 
-	        $result = pg_query($query); 
+	        $result = $link->prepare($query); 
+	        $result = $result->execute();
 			
 			if (!$result) { 
-	            $errormessage = pg_last_error(); 
+	            $errormessage = $link->errorInfo(); 
 
 	            echo json_encode(['code'=>0,'mensaje'=>'Hubo un error procesando tu mensaje, por favor intentalo de nuevo.']);
 	            return "Error with query: " . $errormessage; 
 	             
-	        } 
+	        } */
 
 	/*		@mail("eureka@eureksolutions.com",
 			        "Mensaje de: ".$firstname." ".$surname,

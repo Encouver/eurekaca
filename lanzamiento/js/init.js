@@ -71,7 +71,7 @@
 				error : function(XMLHttpRequest, textStatus, errorThrown) 
 				{
 					alert("Hubo un problema con el servidor, por favor intentalo de nuevo más tarde: "+textStatus+"  "+errorThrown+"  ");
-					console.log(XMLHttpRequest);
+					console.log(XMLHttpRequest.responseText);
 				},
 				complete : function(data) { 
 					
