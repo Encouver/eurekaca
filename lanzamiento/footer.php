@@ -49,7 +49,7 @@
                 <div class="row">
                   <div class="input-field col s12">
                     <input id="newletter" type="email" class="validate" required>
-                    <label for="newletter" data-error="wrong" data-success="right">Newsletter</label>
+                    <label for="newletter" data-error="wrong" data-success="right">Subscribete</label>
                   </div>
                   <div class="right-align">
                     <button class="btn waves-effect waves-light" type="submit" name="action" id="action">
@@ -65,7 +65,7 @@
                 <ul class="collapsible popout" data-collapsible="accordion">
                  <li>
                   <div class="collapsible-header center "><i class="material-icons">payment</i>Medios de pago</div>
-                  <div class="collapsible-body"><p>Actualmente contamos con los Bancos <span class="blue-text">Mercantil</span> y <span class="green-text">Banesco</span> en Venezuela, para pagos en Bs. Para pagos en <span class="white-text " > otras divisas </span>, contactanos. También aceptamos <span class="orange-text"> BitCoin </span>.</p></div>
+                  <div class="collapsible-body"><p>Actualmente contamos con los Bancos <b>Mercantil</b> y <b>Banesco</b> en Venezuela, para pagos en Bs. Para pagos en <span class="white-text " > otras divisas </span>, contactanos. También aceptamos <span class="orange-text"> BitCoin </span>.</p></div>
               </li>
           </ul>
       </div>

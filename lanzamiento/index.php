@@ -320,7 +320,7 @@
             </div>
             <div class="row">
               <div class="input-field col s6">
-                <input id="tlf" type="tel" length="11" class="validate" name="contacto[tlf]" required autocomplete="on">
+                <input id="tlf" type="tel" length="14" class="validate" name="contacto[tlf]" required autocomplete="on">
                 <label for="tlf">Telefono</label>
               </div>
               <div class="input-field col s6">
