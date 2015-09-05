@@ -88,10 +88,10 @@
 <br>
 
 
-  <div class="section">
+<!--  <div class="section">
      <span id="birthday"></span>
-<!--<br><br><br><br>
-<a href="#birthday">Aniversario</a> -->
+<br><br><br><br>
+<a href="#birthday">Aniversario</a> 
 <div class="container-birthday" >
 
   <div class="balloon">
@@ -105,7 +105,7 @@
   <h1 class="birthday">1er Aniversario <br> Estamos de cumpleaños / We are in our Birthday <br/>@ Eureka Solutions</h1>
 </div>
 <br>
-</div>
+</div>s
 
 <!-- 
 <div class="scroll-to-top">
