@@ -304,6 +304,7 @@
             </table>
           </div>
         </div>
+
         <div class="col s12 m6">
           <div class="card card-additional" style="padding: 20px 30px;">
             <table>
@@ -349,6 +350,64 @@
             </table>
           </div>
         </div>
+  <!-- FILA 4 -->
+        <div class="col s12 m6">
+          <div class="card card-additional" style="padding: 20px 30px;">
+            <table>
+              <tbody class="tabla">
+                <tr valign="top">
+                  <img src="image/banderas/bandera-venezuela.gif" width="30" ><br>
+                  <td valign="top">
+                    <img src="image/clientes/logo-snc.svg" class="responsive-img" width="170px">
+                  </td>
+                  <td style="text-align: right;">
+                    <h5 class="">Servicio Nacional de Contrataciones, soluciones de Inteligencia de Negocios</h5>
+                  </td>
+                </tr>
+                <tr valign="top">
+                  <td valign="top" colspan="2">
+                    <div class="blue-text text-lighten-1 right">
+                      <span style="font-weight: bold;">2015</span>
+                    </div>
+                    <br>
+                    <div class="red-text text-lighten-1 right">Senior Business Intelligence</div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <ul> 
+                      <li>
+                        <i class="tiny material-icons blue-text">done</i>Soluciones de BI utilizando PENTAHO</li>
+                      <li>
+                        <i class="tiny material-icons blue-text">done</i>Reportes del sistema RNCE</li>
+                      <li>
+                        <i class="tiny material-icons blue-text">done</i>Módulo Saiku Analytics de Pentaho</li>
+                      <li>
+                        <i class="tiny material-icons blue-text">done</i>Data Warehose</li>
+
+                      <li>
+                        <i class="tiny material-icons blue-text">done</i>Migración de datos mediante ETL</li>
+
+                    </ul>
+                  </td>
+                <!--   <td>
+                  <ul>
+                    <li>
+                      <a href="http://rnce.snc.gob.ve" target="_blank">rnce.snc.gob.ve</a>
+                    </li>
+                  </ul>
+                </td> -->
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+      </div>
       </div>
     </div>
 

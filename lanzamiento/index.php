@@ -131,73 +131,73 @@
               <div class="card-content col s0 m2"></div>
                 <div class="card-content col s12 m8">
                   <div class="img-wrap" style="padding-top: 50px;">
-                    <img class="top-lg responsive-img no-flex" src="image/express-logo.png">
+                    <img class="top-lg responsive-img no-flex" src="image/express-logo.png" alt="ExpressJS">
                     <h6>ExpressJS</h6>
                   </div>
                   <div class="img-wrap">
-                    <img class="top-lg responsive-img no-flex" src="image/angular-logo.png">
+                    <img class="top-lg responsive-img no-flex" src="image/angular-logo.png" alt="AngularJS">
                     <h6>AngularJS</h6>
                   </div>
                   <div class="img-wrap">
-                    <img class="top-lg responsive-img no-flex" src="image/github-logo.png">
+                    <img class="top-lg responsive-img no-flex" src="image/github-logo.png" alt="Github">
                     <h6>Github</h6>
                   </div>
                   <div class="img-wrap">
-                    <img class="top-lg responsive-img no-flex" src="image/html5-logo.png">
+                    <img class="top-lg responsive-img no-flex" src="image/html5-logo.png" alt="Html5">
                     <h6>Html5</h6>
                   </div>
                   <div class="img-wrap">
-                    <img class="top-lg responsive-img no-flex" src="image/javascript-logo.png">
+                    <img class="top-lg responsive-img no-flex" src="image/javascript-logo.png" alt="Javascript">
                     <h6>Javascript</h6>
                   </div>
                   <div class="img-wrap">
-                    <img class="top-lg responsive-img no-flex" src="image/jquery-logo.png">
+                    <img class="top-lg responsive-img no-flex" src="image/jquery-logo.png" alt="Jquery">
                     <h6>Jquery</h6>
                   </div>
                   <!-- <div style="clear:both"></div> -->
                   <div class="img-wrap">
-                    <img class="top-lg responsive-img no-flex" src="image/nodejs_logo.png">
+                    <img class="top-lg responsive-img no-flex" src="image/nodejs_logo.png" alt="NodeJS">
                     <h6>NodeJS</h6>
                   </div>
                   <div class="img-wrap">
-                    <img class="top-lg responsive-img no-flex" src="image/php-logo.png">
+                    <img class="top-lg responsive-img no-flex" src="image/php-logo.png" alt="Php">
                     <h6>Php</h6>
                   </div>
                   <div class="img-wrap">
-                    <img class="top-lg responsive-img no-flex" src="image/postgresql-logo.png">
+                    <img class="top-lg responsive-img no-flex" src="image/postgresql-logo.png" alt="PostgresSQL<">
                     <h6>PostgresSQL</h6>
                   </div>
                   <div class="img-wrap">
-                    <img class="top-lg responsive-img no-flex" src="image/android-logo.png">
+                    <img class="top-lg responsive-img no-flex" src="image/android-logo.png" alt="Android">
                     <h6>Android</h6>
                   </div>
                   <div class="img-wrap">
-                    <img class="top-lg responsive-img no-flex" src="image/aws-logo.png">
+                    <img class="top-lg responsive-img no-flex" src="image/aws-logo.png" alt="AmazonWS">
                     <h6>AmazonWS</h6>
                   </div>
                   <div class="img-wrap">
-                    <img class="top-lg responsive-img no-flex" src="image/mysql-logo.jpg">
+                    <img class="top-lg responsive-img no-flex" src="image/mysql-logo.jpg" alt="Mysql">
                     <h6>Mysql</h6>
                   </div>
                   <!-- <div style="clear:both"></div> -->
                   <div class="img-wrap">
-                    <img class="top-lg responsive-img no-flex" src="image/opengl-logo.jpg">
+                    <img class="top-lg responsive-img no-flex" src="image/opengl-logo.jpg" alt="OpenGL">
                     <h6>OpenGL</h6>
                   </div>
                   <div class="img-wrap">
-                    <img class="top-lg responsive-img no-flex" src="image/webgl-logo.jpg">
+                    <img class="top-lg responsive-img no-flex" src="image/webgl-logo.jpg" alt="WebGL">
                     <h6>WebGL</h6>
                   </div>
                   <div class="img-wrap">
-                    <img class="top-lg responsive-img no-flex" src="image/sql-logo.jpg">
+                    <img class="top-lg responsive-img no-flex" src="image/sql-logo.jpg" alt="SQL">
                     <h6>SQL</h6>
                   </div>
                   <div class="img-wrap">
-                    <img class="top-lg responsive-img no-flex" src="image/shopify-logo.png">
+                    <img class="top-lg responsive-img no-flex" src="image/shopify-logo.png" alt="Shopify">
                     <h6>Shopify</h6>
                   </div>
                   <div class="img-wrap">
-                    <img class="top-lg responsive-img no-flex" src="image/java-logo.png">
+                    <img class="top-lg responsive-img no-flex" src="image/java-logo.png" alt="Java">
                     <h6>Java</h6>
                   </div>
                   <!-- <div style="clear:both"></div> -->
@@ -250,7 +250,7 @@
                     <tbody>
                       <tr>
                         <td>
-                          <img src="image/team-marcos.jpg" width="100" height="100" alt="" class="circle">
+                          <img src="image/team-marcos.jpg" width="100" height="100" alt="Marcos Ramírez" class="circle">
                         </td>
                         <td>
                           <i class=" material-icons">phone</i> <a href="tel:+584143453988">+58 414-3453988</a>
@@ -284,7 +284,7 @@
                     <tbody>
                       <tr>
                         <td>
-                          <img src="image/team-edgar.jpg" width="100" height="100" alt="" class="circle">
+                          <img src="image/team-edgar.jpg" width="100" height="100" alt="Edgar Leal" class="circle">
                         </td>
                         <td>
                           <i class=" material-icons">phone</i> <a href="tel:+584143189549">+58 414-3189549</a>

@@ -20,7 +20,7 @@ AppAsset::register($this);
 
  <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Página de la empresa Eureka Solutions C.A. registrada en Venezuela">
+    <meta name="description" content="Página de la empresa Eureka Solutions C.A. registrada en Venezuela, nos dedicamos a desarrollar productos que innoven el mercado tecnológico.">
     <meta name="author" content="Eureka Solutions - eureksolutions.com">
     <!---<link rel="shortcut icon" href="ico/favicon.png">-->
 
@@ -71,7 +71,7 @@ AppAsset::register($this);
       ga('create', 'UA-56478210-1', 'auto');
       ga('send', 'pageview');
     </script>
-    <?php $this->title = 'Eureka Solutions C.A.'; ?>
+    <?php $this->title = 'Eureka Solutions C.A. - Innovando tu mundo'; ?>
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
