@@ -1,7 +1,7 @@
 
 <?php include('header.php'); ?>
 
- <div class="navbar-fixed">
+ <div class="navbar-fixed header-personalizacion">
       <nav class="black" role="navigation">
         <div class="nav-wrapper container">
           <a id="logo-container" href="./index.php" class="brand-logo left"></a>

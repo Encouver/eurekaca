@@ -48,7 +48,8 @@
 
    -->
 
-    <div id="inicio" class="navbar-fixed" >
+
+    <div id="inicio" class="navbar-fixed header-personalizacion" >
       <nav class="black" role="navigation">
         <div class="nav-wrapper container">
         <!-- Actualizar la URL acorde una vez en el servidor -->
@@ -391,3 +392,4 @@
   </div>    
 
       <?php include('footer.php'); ?>
+

@@ -1,234 +1,184 @@
 <?php include_once('conex.php');
 
-	header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
+header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
 
-	header("Cache-Control: post-check=0, pre-check=0", false);
+header("Cache-Control: post-check=0, pre-check=0", false);
 
-	header("Pragma: no-cache");
+header("Pragma: no-cache");
 
 
+//use /eureka;
 
-	//use /eureka;
 
+//$link = Conexion::singleton();
 
 
-	//$link = Conexion::singleton();
+function correo($email)
+{
 
+    $email = ($email);
 
 
-	
+    $link = Conexion::singleton();
 
-		
 
+    $query = "INSERT INTO newsletter(correo) VALUES('" . $email . "')";
 
 
+    //$result = @pg_query($query);
 
+    $result = $link->prepare($query);
 
-		function correo($email)
+    $result = $result->execute();
 
-		{
 
-			$email = ($email); 
+    if (!$result) {
 
+        $errormessage = $link->errorInfo();
 
+        echo json_encode(['id'=>0, 'status'=> false, 'message'=> "Vaya, este correo ya ha sido suscrito."]);
+        return;
+    }
 
-			$link = Conexion::singleton();
 
-			
+    echo json_encode(['id'=>0, 'status'=> true, 'message'=> "Listo, correo suscrito, te mantendremos informado."]);
 
-				$query = "INSERT INTO newsletter(correo) VALUES('" . $email . "')"; 
+    return;
 
+}
 
 
-		        //$result = @pg_query($query); 
+function mensaje($datos)
 
-		        $result = $link->prepare($query); 
+{
 
-	        	$result = $result->execute();
 
-				
+    $link = Conexion::singleton();
 
-				if (!$result) { 
 
-		            $errormessage = $link->errorInfo(); 
+    /*			 $usuario="eureka";
 
-		            echo  "Vaya, este correo ya ha sido suscrito";
-		            return ;
-		        }
+                  $clave="eureka";
 
+                  $db_host="localhost";
 
-				echo   "Listo, correo suscrito, te mantendremos informado"; 
+                  $bd_nombre="eureka";
 
-				return ;
+                  $port = 5432;
 
-		}
 
 
+                 $link = new PDO('pgsql: host='.$db_host.'; dbname='.$bd_nombre.'; port='.$port, $usuario, $clave);
 
-		
 
 
+                //var_dump($link);
 
-		function mensaje($datos)
 
-		{
 
+                */
 
+    $firstname = ($datos['contacto']['nombre']);
 
-			$link = Conexion::singleton();
+    $surname = ($datos['contacto']['apellido']);
 
+    $tlf = ($datos['contacto']['tlf']);
 
+    $emailaddress = ($datos['contacto']['correo']);
 
-/*			 $usuario="eureka";
+    $mensaje = ($datos['contacto']['mensaje']);
 
-			  $clave="eureka";
 
-			  $db_host="localhost";
+    $query = "INSERT INTO mensajes(nombre, apellido, telefono, correo, mensaje) VALUES('" . $firstname . "', '" . $surname . "', '" . $tlf . "', '" . $emailaddress . "', '" . $mensaje . "')";
 
-			  $bd_nombre="eureka";
+    $result = $link->prepare($query);
 
-			  $port = 5432;
+    $result = $result->execute();
 
 
+    if (!$result) {
 
-		 	$link = new PDO('pgsql: host='.$db_host.'; dbname='.$bd_nombre.'; port='.$port, $usuario, $clave);
+        $errormessage = $link->errorInfo();
 
 
+        echo json_encode(['code' => 0, 'mensaje' => 'Hubo un error procesando tu mensaje, por favor intentalo de nuevo.']);
 
-			//var_dump($link);
+        return "Error with query: " . $errormessage;
 
 
+    }
 
-			*/
 
-			$firstname = ($datos['contacto']['nombre']); 
+    /*		@mail("eureka@eureksolutions.com",
 
-	        $surname = ($datos['contacto']['apellido']); 
+                    "Mensaje de: ".$firstname." ".$surname,
 
-			$tlf = ($datos['contacto']['tlf']);
+                    "Datos de contacto: ".$tlf."<br><br>".$mensaje,
 
-	        $emailaddress = ($datos['contacto']['correo']);
+                    "From: ". $emailaddress . "\r\n" . "Content-Type: text/html; charset=utf-8"/*,
 
-			$mensaje = ($datos['contacto']['mensaje']);  
+                    "-fsender@example.com");*/
 
-			
 
-			
+    // Guardar en archivo.txt
 
-			$query = "INSERT INTO mensajes(nombre, apellido, telefono, correo, mensaje) VALUES('" . $firstname . "', '" . $surname . "', '" . $tlf . "', '" . $emailaddress . "', '" . $mensaje . "')"; 
+    doLog("Datos de la persona: " . $firstname . " " . $surname . " Teléfono: " . $tlf . " Correo: " . $emailaddress . " Mensaje: " . $mensaje . "", "logs/mensajes.txt");
 
-	        $result = $link->prepare($query); 
+    // Guardar en archivo CSV
 
-	        $result = $result->execute();
+    doLog("" . $firstname . ";" . $surname . ";" . $tlf . ";" . $emailaddress . ";" . $mensaje . "", "logs/mensajes.csv");
 
-			
 
-			if (!$result) { 
+    echo json_encode(["code" => 1, "mensaje" => "Listo, tu mensaje ya fue recibido, te contactaremos."]);
 
-	            $errormessage = $link->errorInfo(); 
+    //return  "Listo, tu mensaje ya fue recibido, te contactaremos.";
 
 
+}
 
-	            echo json_encode(['code'=>0,'mensaje'=>'Hubo un error procesando tu mensaje, por favor intentalo de nuevo.']);
 
-	            return "Error with query: " . $errormessage; 
+function doLog($text, $filename)
 
-	             
+{
 
-	        } 
+    // Abrir archivo log
 
+    $filename = $filename;
 
+    $fh = fopen($filename, "a") or die("No se pudo abrir el archivo de mensajes..");
 
-	/*		@mail("eureka@eureksolutions.com",
+    fwrite($fh, date("d-m-Y, H:i") . " - $text\n") or die("No se pudo guardar el mensaje en el log!");
 
-			        "Mensaje de: ".$firstname." ".$surname,
+    fclose($fh);
 
-			        "Datos de contacto: ".$tlf."<br><br>".$mensaje,
+}
 
-			        "From: ". $emailaddress . "\r\n" . "Content-Type: text/html; charset=utf-8"/*,
 
-			        "-fsender@example.com");*/
+if (@$_POST) {
 
+    // subscripción
+    if (@$_POST['scenario'] == 1) {
 
 
-			// Guardar en archivo.txt
+        $aux = correo(@$_POST['email']);
 
-			doLog("Datos de la persona: ".$firstname." ".$surname." Teléfono: ".$tlf." Correo: ".$emailaddress." Mensaje: ".$mensaje."", "logs/mensajes.txt");
 
-			// Guardar en archivo CSV
+        return $aux;
 
-			doLog("".$firstname.";".$surname.";".$tlf.";".$emailaddress.";".$mensaje."", "logs/mensajes.csv");
+    // Mensajes
+    } elseif (@$_POST['scenario'] == 2) {
 
 
+        parse_str(@$_POST['datos'], $datos);
 
 
+        $aux = mensaje($datos);
 
-			echo json_encode(["code"=>1,"mensaje"=>"Listo, tu mensaje ya fue recibido, te contactaremos."]);
 
-			//return  "Listo, tu mensaje ya fue recibido, te contactaremos."; 
+        return $aux;
 
+    }
 
-
-		}
-
-
-
-
-
-		function doLog($text, $filename)
-
-		{
-
-		  // Abrir archivo log
-
-		  $filename = $filename;
-
-		  $fh = fopen($filename, "a") or die("No se pudo abrir el archivo de mensajes..");
-
-		  fwrite($fh, date("d-m-Y, H:i")." - $text\n") or die("No se pudo guardar el mensaje en el log!");
-
-		  fclose($fh);
-
-		}
-
-
-
-	if(@$_POST)
-
-	{
-
-		if(@$_POST['scenario']==1)
-
-		{
-
-
-
-			$aux = correo(@$_POST['email']);
-
-
-
-			return $aux;
-
-
-
-		}elseif (@$_POST['scenario']==2) {
-
-			
-
-		
-
-			parse_str(@$_POST['datos'],$datos);
-
-
-
-			$aux = mensaje($datos);
-
-
-
-			return $aux;
-
-		}
-
-	}
+}
 
 ?>
