@@ -88,8 +88,8 @@
       <script type="text/javascript">
         $().ready(function() {
          
-          $("#contacto").validate();
-          $("#newle").validate();
+          //$("#contacto").validate();
+          //$("#newle").validate();
     
         });
       </script>
